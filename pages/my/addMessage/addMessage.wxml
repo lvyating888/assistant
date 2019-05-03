@@ -1,0 +1,57 @@
+<!-- <button bindtap="test">测试测试测试</button>
+<image src='{{serc}}'></image> -->
+<registerPop typeOne="{{popflag}}" datalis="{{floor_data}}" bind:hidepop="hidepopfun" bind:show_othercomp="show_othercomp"
+             bind:changeComp="_changeComp"/>
+<view class="checkRegister_out">
+    <!-- 基本信息头部 -->
+    <view class="mainout flexout flex_between checkRegister_title">
+        <view class="checkRegister_title_black">
+            添加个人信息
+        </view>
+    </view>
+    <view class="mainout user_ul">
+        <!--  -->
+        <view class="user_lis flexout flex_between">
+            <view class="user_lis_left flexout" >
+              <text decode="{{true}}" class="flexout flexli_center">姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名
+              </text>
+            </view>
+            <view class="user_lis_right">
+                <input placeholder='请输入姓名'></input>
+            </view>
+        </view>
+        <!--  -->
+        <view class="user_lis flexout flex_between">
+            <view class="user_lis_left flexout" >
+              <text decode="{{true}}" class="flexout flexli_center">身&nbsp;份&nbsp;证
+              </text>
+            </view>
+            <view class="user_lis_right">
+                <input placeholder='请输入身份证'></input>
+            </view>
+        </view>
+        <!--  -->
+        <view class="user_lis flexout flex_between">
+            <view class="user_lis_left flexout" >
+              <text decode="{{true}}" class="flexout flexli_center">手机号码
+              </text>
+            </view>
+            <view class="user_lis_right">
+                <input placeholder='请输入你的手机号码'></input>
+            </view>
+        </view>
+         <!--  -->
+    </view>
+    <!--  -->
+    <view class="note_ul mainout">
+        <view class="notelis ">
+            注：添加个人信息后更方便
+        </view>
+    </view>
+     <!--  -->
+    <view class="mainout">
+        <view class="next_btn">
+            确定添加
+        </view>
+    </view> 
+</view>

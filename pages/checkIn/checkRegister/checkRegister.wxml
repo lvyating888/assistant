@@ -1,0 +1,136 @@
+<!-- <button bindtap="test">测试测试测试</button>
+<image src='{{serc}}'></image> -->
+<registerPop typeOne="{{popflag}}" datalis="{{floor_data}}" bind:hidepop="hidepopfun" bind:show_othercomp="show_othercomp"
+             bind:changeComp="_changeComp"/>
+<view class="checkRegister_out">
+    <!-- 基本信息头部 -->
+    <view class="mainout flexout flex_between checkRegister_title">
+        <view class="checkRegister_title_black">
+            基本信息
+        </view>
+        <view class="checkRegister_title_blue">
+            #入驻优势与须知#
+        </view>
+    </view>
+    <view class="mainout user_ul">
+        <!--  -->
+        <view class="user_lis flexout flex_between">
+            <view class="user_lis_left flexout" >
+              <text decode="{{true}}" class="flexout flexli_center">姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名<text class="red_text">*</text>
+              </text>
+            </view>
+            <view class="user_lis_right" decode="{{true}}">
+                <input placeholder='请输入姓名'></input>
+            </view>
+        </view>
+        <!--  -->
+        <view class="user_lis flexout flex_between">
+            <view class="user_lis_left flexout" >
+              <text decode="{{true}}" class="flexout flexli_center">微&nbsp;信&nbsp;号<text class="red_text">*</text>
+              </text>
+            </view>
+            <view class="user_lis_right" decode="{{true}}">
+                <input placeholder='请输入微信号'></input>
+            </view>
+        </view>
+        <!--  -->
+        <view class="user_lis flexout flex_between">
+            <view class="user_lis_left flexout" >
+              <text decode="{{true}}" class="flexout flexli_center">推&nbsp;荐&nbsp;人
+              </text>
+            </view>
+            <view class="user_lis_right" decode="{{true}}">
+                <input placeholder='推荐人的姓名（可以为TA加分）'></input>
+            </view>
+        </view>
+        <!--  -->
+         <view class="user_lis flexout flex_between">
+            <view class="user_lis_left flexout" >
+              <text decode="{{true}}" class="flexout flexli_center">个人简介<text class="red_text">*</text>
+              </text>
+            </view>
+            <view class="user_lis_right" decode="{{true}}">
+                <input placeholder='输入个人简介提高关注度'></input>
+            </view>
+        </view>
+        <!--  -->
+    </view>
+    <!-- 楼盘头部 -->
+    <view class="mainout flexout flex_between checkRegister_title">
+        <view class="checkRegister_title_black">
+            楼盘信息<text class="red_text">*</text>
+        </view>
+    </view>
+    <!--  -->
+    <view class="mainout user_ul">
+        <!--  -->
+         <view class="user_lis flexout flex_between">
+            <view class="user_lis_left flexout" >
+              <text decode="{{true}}" class="flexout flexli_center">楼盘名称
+              </text>
+            </view>
+            <!--  -->
+            <view class="user_lis_right flexout flex_between" >
+                <view class="user_lis_right_mid flexout flex_between">
+                    
+                    {{change_comp!==''?change_comp:'请选择已有楼盘'}}
+                    <view class="iconfont icon-guanbi close_btn" bindtap="hide_close_btn" wx:if="{{close_btn_falg}}"></view>
+                </view>  
+                <view class="user_lis_right_rig flexout flex_center" bindtap='showpop'>
+                    选择楼盘
+                    <view class="icon iconfont icon-icon-up icon_more" ></view>
+                </view>  
+            </view>
+        </view>
+        <!--  -->
+        <view class="user_lis flexout flex_between" wx:if="{{dataOther}}">
+                <view class="user_lis_left flexout" >
+                  <text decode="{{true}}" class="flexout flexli_center">或新楼盘
+                  </text>
+                </view>
+                <view class="user_lis_right">
+                    <input placeholder='请输入新楼盘全名'></input>
+                </view>
+        </view>
+        <!--  -->
+    </view>
+    <!--  -->
+    <!-- 楼盘头部 -->
+    <view class="mainout flexout flex_between checkRegister_title">
+        <view class="checkRegister_title_black">
+            上传微信二维码和名片/工具<text class="red_text">*</text>
+            <text class="hui_text">(图片大小不超过2M)</text>
+        </view>
+    </view>
+    <!--  -->
+    <view class="mainout user_ul flexout flex_between">
+        <view class="user_poto_lis">
+            <image class="user_poto_lis_img"  bindtap='test' id='0'  src="{{serc[0]}}" ></image>
+             <view class="user_poto_lis_text">
+                微信二维码
+             </view>
+        </view>
+        <view class="user_poto_lis">
+            <image class="user_poto_lis_img" bindtap='test' id='1'  src="{{serc[1]}}" ></image>
+             <view class="user_poto_lis_text">
+                名牌或工牌
+             </view>
+        </view>
+    </view>
+    <!--  -->
+    <view class="mainout">
+        <view class="next_btn">
+            下一步
+        </view>
+    </view>
+    <!--  -->
+    <view class="note_ul mainout">
+        <view class="notelis ">
+            助手是大多数的删掉的是的是的是的是删掉 是的是删掉爱上撒的删掉撒旦爱上的阿萨德啊
+        </view>
+        <view class="notelis ">
+            助手是大多数的删掉的是的是的是的是删掉 是的是删掉爱上撒的删掉撒旦爱上的阿萨德啊
+        </view>
+    </view>
+    
+</view>

@@ -1,0 +1,134 @@
+/* pages/pkList/pkDetails/pkDetails.wxss */
+.pkDetails_floor{
+  padding-top: 20rpx;
+  padding-bottom:30rpx;
+}
+.pkDetails_title{
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+}
+.pk_details{
+  padding-top:110rpx;
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  min-height:100%;
+  box-sizing: border-box;
+}
+.page_white{
+  background-color:#ffffff;
+}
+page,.page_body{
+  background-color:#f7f7f7;
+}
+.pkDetails_lis{
+  width:46%;
+}
+.pkDetails_lis_top{
+  padding-bottom:18rpx;
+  border-bottom:2rpx solid #e5e5e5;
+  
+}
+.pkDetails_lis_top_title{
+  height:44rpx;
+}
+.pkDetails_floor_lis{
+  margin-bottom:18rpx;
+}
+.pkDetails_lis_img_out{
+  margin:0 auto 30rpx;
+}
+.pkDetails_lis_img{
+  width:290rpx;
+  height:194rpx;
+  margin:0 auto;
+  display: block;
+}
+.icontext{
+  font-size:30rpx;
+  color:#000;
+}
+.icons{
+  transform:rotate(90deg);
+  font-size:44rpx;
+  color: #3571c9;
+  font-weight: bold;
+}
+.pk_message{
+  padding:16rpx 0;
+}
+.pk_message_imgs{
+  width:220rpx;
+  height:20rpx;
+}
+.pk_message_imgs_right{
+  transform:rotate(180deg);
+}
+.pk_message_tit{
+  line-height:40rpx;
+  font-size:30rpx;
+  color:#000;
+}
+.pk_one{
+  flex:3;
+}
+.pk_two{
+  flex:2;
+  padding-left:6rpx;
+  padding-right:6rpx;
+}
+.pk_one_left{
+  text-align:right;
+}
+.pk_one_center{
+  text-align:center;
+}
+.flex_bot_lis{
+  padding-top:10rpx;
+  padding-bottom:10rpx;
+}
+.pk_font{
+  font-size:28rpx;
+  line-height:46rpx;
+}
+.pk_black{
+  color:#333;
+}
+.pk_hui{
+  color:#666;
+}
+.pk_blue{
+  color:#3b9f9d;
+}
+.share_btn_out{
+  position: absolute;
+  bottom:-112rpx;
+  width:100%;
+  left:0;
+}
+.share_btn{
+  width:96rpx;
+  height:96rpx;
+  text-align:center;
+  line-height:96rpx;
+  background-color: #f67963;
+  margin:0 auto;
+  border-radius:50%;
+}
+.share_btn_text{
+  font-size: 52rpx;
+  color:#fff;
+}
+.share_btn_note{
+  line-height:50rpx;
+  font-size: 26rpx;
+  color:#000;
+  text-align: center;
+  padding-bottom:16rpx;
+}
+.share_parent{
+  position:relative;
+}

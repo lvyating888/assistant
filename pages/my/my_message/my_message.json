@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "noData": "/components/noData/noData"
+  },
+  "navigationBarTitleText": "我的身份信息"
+}

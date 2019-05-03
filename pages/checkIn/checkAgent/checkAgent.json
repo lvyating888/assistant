@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "registerPop": "/components/register_pop/register_pop"
+  },
+  "navigationBarTitleText": "我是经纪人"
+}

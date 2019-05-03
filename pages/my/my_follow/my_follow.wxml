@@ -1,0 +1,110 @@
+<!--pages/my/my_follow/my_follow.wxml-->
+
+<view class="my_follow_out">
+    <followTab bind:ChageNumberpop="ChageNumberpop"/>
+    <!--  -->
+    <view  wx:if="{{followTabnumber == 'follow_tab0'}}">
+        <view class="mainout follow_lis flexout">
+            <view class="follow_lis_left">
+              <image class="follow_img_one" src="https://www.71big.com/heqing/zhaojingwang/common/images/banner1.jpg">
+
+              </image>
+            </view>
+            <view class="follow_lis_middle">
+                <view class="follow_one">
+                  保利天禧
+                </view>
+                <view class="follow_two">
+                  待定
+                </view>
+                <view>
+                    <view class="greenlis">
+                        待售
+                    </view>
+                </view> 
+            </view>
+            <view class="flexli_center">
+                <view class="icon iconfont icon-more2"></view>
+            </view>
+        </view>
+        <!--  -->
+        <view class="mainout follow_lis flexout">
+            <view class="follow_lis_left">
+              <image class="follow_img_one" src="https://www.71big.com/heqing/zhaojingwang/common/images/banner1.jpg">
+
+              </image>
+            </view>
+            <view class="follow_lis_middle">
+                <view class="follow_one">
+                  保利天禧
+                </view>
+                <view class="follow_two">
+                  待定
+                </view>
+                <view>
+                    <view class="greenlis">
+                        待售
+                    </view>
+                </view> 
+            </view>
+            <view class="flexli_center">
+                <view class="icon iconfont icon-more2"></view>
+            </view>
+        </view>
+        <!--  -->
+    </view>
+    <!--  -->
+    <view  wx:if="{{followTabnumber == 'follow_tab1'}}">
+        <view class="mainout">
+            <view class="adviser_lis flexout">
+                <view class="adviser_left">
+                    <image class="follow_img_two" src="https://www.71big.com/heqing/zhaojingwang/common/images/banner1.jpg">
+
+                    </image>
+                    <view class="follow_btn">
+                        已关注
+                    </view>
+                    <view class="follow_btn_hui">
+                        +关注
+                    </view>
+                </view>
+                <view class="adviser_right ">
+                      <view class="flexout flex_between">
+                          <view class="flexout flex_end text_one">
+                              <view class="font_one"> 
+                                要非要
+                              </view>
+                              <view class="font_two">
+                                要非要
+                              </view>
+                          </view>
+                          <view class="icon">
+                              <image class="icon_img" src="/utils/static/imgs/gold_medal.png"></image>
+                          </view>
+                      </view>
+                      <view class="font_three">
+                          厚度的护士的
+                      </view>
+                      <view class="flexout">
+                          <view class="adviser_mid_lis">
+                              <view class="icon iconfont icon-gongzhonghao adviser_mid_lis_text"></view>
+                          </view>
+                          <view class="adviser_mid_lis">
+                              <view class="icon iconfont icon-dianhua adviser_mid_lis_text"></view>
+                          </view>
+                      </view>
+                      <view class="adviser_mid_lis_bot flexout flex_between">
+                          <view class="adviser_mid_lis_bot_text">
+                            浏览量：111111
+                          </view>
+                          <view class="adviser_mid_lis_bot_text">
+                            活跃度111111
+                          </view>
+                      </view>
+                </view>
+            </view>
+        </view>
+        <!--  -->
+    </view>
+    <!--  -->
+</view>

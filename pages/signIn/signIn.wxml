@@ -1,0 +1,29 @@
+<!--pages/signIn/signIn.wxml-->
+<view class="signInout">
+  <view class="imagesize">
+      <image src="../../utils/static/imgs/Sign_inbg.jpg" class='imgs' > 
+          <view class="signInout_inner">
+              <view class="userimg">
+                 <image class='imgs' src="https://www.71big.com/heqing/zhaojingwang/common/images/banner1.jpg">
+                 </image>
+              </view>
+              <view class="username">
+                  范冰冰
+              </view>
+              <view class="username">
+                  连续签到0天！已签到1天!
+              </view>
+              <view class="lucktext">
+                恭喜发财，大吉大利
+              </view>
+              <view class="sign_btn sign_btn_yellow">
+                签到
+              </view>
+              <!-- <view class="sign_btn sign_btn_hui">
+                已签到
+              </view> -->
+          </view>
+      </image>
+  </view>
+  
+</view>

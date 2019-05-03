@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "userBottom":"/components/user_bottom/user_bottom"
+  },
+  "navigationBarTitleText": "置业顾问详情"
+}

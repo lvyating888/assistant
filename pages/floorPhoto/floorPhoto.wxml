@@ -1,0 +1,16 @@
+<!--pages/floorPhoto/floorPhoto.wxml-->
+<tabLis tabArry="{{tabArry}}" bind:changeTab="changeTab_lis"></tabLis>
+<view class="tabArry_out">
+    <view class=" w100">
+      <view class=" mainout flexout flex_between flex_wrap">
+          <view class="tabArry_photolis " wx:for="{{tabArry[tab_number].imgs}}"
+            wx:key="{{tabArry[0].imgs}}">
+              <image 
+              class="tabArry_photolis_img"
+              src="{{item}}" 
+              bindtap="imgYu" data-list="{{tabArry[0].imgs}}" data-src="{{item}}"
+              ></image>
+          </view>
+      </view>
+    </view>
+</view>

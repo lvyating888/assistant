@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "followTab": "/components/follow_tab/follow_tab"
+  },
+  "navigationBarTitleText": "我的关注"
+}

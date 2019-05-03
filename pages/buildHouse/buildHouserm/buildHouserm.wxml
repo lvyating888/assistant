@@ -1,0 +1,102 @@
+<view class="container">
+      <searchlis ></searchlis>
+      <!-- screen -->
+        <houseScreen class="w100"
+        wx:if="{{searchall}}"
+        typeOne="{{typeOneList}}"
+        bind:changeTypeone="_changeTypeone"
+        typeTwoList="{{typeTwoList}}"
+        bind:changeTypeTwo="_changeTypeTwo"
+        typeThreeList="{{typeThreeList}}"
+        bind:change_area="change_area"
+        bind:change_area_one="_change_area_one"
+        bind:change_four="change_four"
+        bind:change_area_two='change_area_two'
+        />
+      <!-- screentwo -->
+        <houseScreen class="w100"
+        wx:if="{{searcharea}}"
+        areafalg="true"
+        typeThreeList="{{typeThreeList}}"
+        bind:change_area="change_area"
+        bind:change_area_one="_change_area_one"
+        bind:change_four="change_four"
+        bind:change_area_two='change_area_two'
+        />
+      <!-- 全部最新开盘广告 -->
+      <view class="w100" >
+        <noData wx:if="{{nodate}}"/>  
+        <navigator class="openlis" 
+                   wx:for="{{rmdata.dataDetails}}"
+                   wx:key="key"  
+                   url="/pages/houseDetails/houseDetails">
+            <view class="mainout">
+                <view class="flexout flex_between" >
+                    <!--左侧图片-->
+                    <view class="openlisimg">
+                      <image  class="imgs" src="https://www.71big.com/heqing/zhaojingwang/common/images/banner1.jpg"></image>
+                    </view>
+                    <!--右侧文字-->
+                    <view class="openlisright">
+                        <view class=" flexout flex_between">
+                              <view class="openlisright_lione openlisright_one textHidden">
+                                 {{item.name}}
+                              </view>
+                              <view class="openlisright_litwo openlisright_two">
+                                 {{item.price}}
+                              </view>
+                        </view>
+                        <!-- 报名 -->
+                        <view class=" flexout flex_between openlisright2">
+                              <view class="openlisright_lione flexout flex_wrap">
+                                  <view class="greenlis" 
+                                  wx:for="{{item.characlis}}"
+                                  wx:key="{{keytwo}}"
+                                  wx:for-item="itemtwo"
+                                  >
+                                      {{itemtwo}}
+                                  </view>
+                                  <!-- <view class="greenlis">
+                                      交资料中
+                                  </view> -->
+                              </view>
+                              <view class="openlisright_litwo greenlis_text">
+                                   {{item.location}}
+                              </view>
+                        </view>
+                        <!-- 摇号时间 -->
+                        <view class=" flexout flex_between openlisright3">
+                              <view class=" flexout">
+                                  <view class="openlisright3_text">
+                                    摇号时间：2019-02-18
+                                  </view>
+                              </view>
+                              <view class=" flexout flex_between">
+                                <view class="flexout flex_center">
+                                  <view class="iconfont icon-eyes openlisright3_text"></view>
+                                  <view class="openlisright3_text">61.6w</view>
+                                </view>
+                                <view class="flexout flex_center">
+                                  <view class="iconfont icon-xx openlisright3_text"></view>
+                                  <view class="openlisright3_text">287</view>
+                                </view>  
+                              </view>
+                        </view>
+                    </view>
+              </view>
+          </view>
+        </navigator>
+        <!-- 加载loading -->
+        <loadingone wx:if="{{load}}"></loadingone>   
+        <!-- 没有更多了 -->
+        <view class="lastnomore" wx:if="{{!hasMore}}">没有更多了</view>
+        <!-- 返回顶部 -->
+        <goback 
+          floorstatus="{{floorstatus}}"
+          bind:goTop="goTop" 
+          bind:onPageScroll="onPageScroll"/>
+
+      </view>
+     
+</view>
+

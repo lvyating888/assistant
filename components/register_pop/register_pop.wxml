@@ -1,0 +1,40 @@
+<view class="popadsout" wx:if="{{typeOne}}">
+    <view class='popadsoutbg' bindtap="_hidepop"></view>
+    <view class='register_pop'>
+        <view class="searchView">
+            <!--  -->
+            <view class="searchout">
+                <!--  -->
+                <view class="search  flexout flex_center search_lis">
+                    <view class="search_inner flex_grow2 flexout">
+                        <view class="searchinputout flexout flex_grow2 flexli_center">
+                          <view class="iconfont icon-sousuo1 flexli_center"></view>
+                          <input class=" flex_grow2 flexli_center searchinput" placeholder='输入楼盘名字搜索'></input>
+                        </view>
+                        <view class="searchleft_li ">
+                          <view class="searchtext_lis">
+                            确定
+                          </view>
+                        </view>
+                    </view>
+                </view>
+                <!--  -->
+                <view class="search_complis mainout search_lis flexout" bindtap='show_othercomp'>
+                    <view class="search_complis_text search_complis_text_blue flexli_center">
+                        未找到楼盘去填写楼盘名
+                    </view>
+                </view>
+                <!--  -->
+            </view>
+            <!--  -->
+            <scroll-view class="register_pop_scroll" scroll-y="true">
+                <view class="search_complis mainout search_lis flexout" wx:for="{{datalis}}" wx:key="{{datalis}}">
+                    <view class="{{item.checked ? 'search_complis_text_blue search_complis_text  flexli_center ':'search_complis_text_black search_complis_text  flexli_center '}}" bindtap='changeComp' data-index="{{index}}" >
+                        {{item.companyname}}
+                    </view>
+                </view>
+            </scroll-view>
+        </view>
+        
+    </view>
+</view>

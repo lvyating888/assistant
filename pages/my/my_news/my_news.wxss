@@ -1,0 +1,30 @@
+/* pages/my/my_news/my_news.wxss */
+.news_lis{
+  background-color: #fff;
+  border-bottom:2rpx solid #e2e2e2;
+  padding-top:30rpx;
+  padding-bottom:30rpx;
+}
+.user_img{
+  width:96rpx;
+  height:96rpx;
+  border-radius:50%;
+}
+.news_lis_center{
+  padding-left:30rpx;
+  padding-right:30rpx;
+  flex:1;
+}
+.news_lis_nameout{
+  flex:1;
+}
+.user_name{
+  line-height:50rpx;
+  font-size:32rpx;
+  color:#000;
+}
+.user_msg{
+  line-height:60rpx;
+  font-size:30rpx;
+  color:#999;
+}

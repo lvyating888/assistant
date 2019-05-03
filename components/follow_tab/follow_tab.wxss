@@ -1,0 +1,28 @@
+@import "../../app.wxss";
+.house_tabul{
+  height:94rpx;
+  position: fixed;
+  top:0;
+  left:0;
+  width: 100%;
+  box-sizing: border-box;
+  background-color:#fff;
+  border-bottom:2rpx solid #e2e2e2;
+}
+.house_tablis{
+  margin: 0 90rpx 0 30rpx;
+  font-size:35rpx;
+  height:92rpx;
+  line-height:92rpx;
+  box-sizing: border-box;
+}
+.house_tablis_text{
+  border-bottom:6rpx solid #fff;
+  color:#333;
+}
+.house_tablis_textact{
+  border-bottom:6rpx solid #3b6ed7;
+  border-bottom-left-radius:6rpx;
+  border-bottom-right-radius:6rpx;
+  color:#3b6ed7;
+}

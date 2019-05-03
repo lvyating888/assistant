@@ -1,0 +1,22 @@
+@import "../../app.wxss";
+.goback{
+  background: #f29400;
+  width:60rpx;
+  height: 60rpx;
+  border-radius: 50%;
+  position: fixed;
+  right:40rpx;
+  bottom:100rpx;
+  z-index:100;
+}
+.goback .gobackimg{
+  background-image: url("https://webimg.mp12345.com/mpsaas/img/preleftlione.png");
+    transform:rotate(-90deg);
+  -ms-transform:rotate(-90deg); 	/* IE 9 */
+  -moz-transform:rotate(-90deg); 	/* Firefox */
+  -webkit-transform:rotate(-90deg); /* Safari 和 Chrome */
+  -o-transform:rotate(-90deg); 	/* Opera */
+  width:30rpx;
+  height:30rpx;
+  background-size: cover;
+}

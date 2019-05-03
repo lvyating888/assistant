@@ -1,0 +1,85 @@
+/* pages/checkIn/checkIn.wxss */
+.checkInout{
+  position: absolute;
+  width:100%;
+  height:100%;
+  display: flex;
+  justify-content:center;
+  flex-direction:column ;
+  align-items: center;
+}
+.imgs{
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  z-index:-1;
+}
+.checkIn_lis{
+  width:688rpx;
+  height:308rpx;
+  margin:44rpx 0;
+  position:relative;
+}
+.checkIn_lis_bot{
+  width:674rpx;
+  height:292rpx;
+  border-radius:12rpx;
+  position: absolute;
+}
+.checkIn_lis_bot_white{
+  background-color: #fff;
+  top:0;
+  left:0;
+  z-index:11;
+}
+.checkIn_lis_bot_red{
+  border:2rpx solid #d62c80;
+  bottom:0;
+  right:0;
+  z-index:8;
+}
+.checkIn_lis_bot_blue{
+  border:2rpx solid #376fcc;
+  bottom:0;
+  right:0;
+  z-index:8;
+}
+.checkIn_lis_main{
+  margin-top:10rpx;
+  margin-bottom:36rpx;
+  justify-content:center;
+  flex-direction:column ;
+  align-items: center;
+  display: flex;
+}
+.icon_bg{
+  width:110rpx;
+  height:110rpx;
+  border-radius:50%;
+  margin-top:30rpx;
+  margin-bottom:30rpx;
+}
+.icon_bg_red{
+  background-color: #fee2f0;
+}
+.icon_bg_blue{
+  background-color: #dbe9ff;
+}
+.icon_bg_text{
+  font-size:60rpx;
+  line-height: 110rpx;
+  text-align: center;
+  font-weight: bold;
+}
+.icon_bg_text_red{
+  color:#d62c80;
+}
+.icon_bg_text_blue{
+  color:#376fcc;
+}
+.icon_bg_text_bot{
+  line-height:78rpx;
+  font-size:60rpx;
+}

@@ -1,0 +1,98 @@
+/**index.wxss**/
+@import "/utils/common.wxss";
+.swiper-container,.swiper-box,.banner-item{
+  width: 100%;
+  height: 320rpx;
+  margin:0;
+  padding:0;
+}
+.slide-image{
+  width: 100%;
+  height: 100%;
+}
+.navout{
+  padding-bottom:15rpx;
+  background-color:#fff;
+  /* border-bottom:2px solid #eee; */
+}
+.navlis_one{
+  padding:18rpx 22rpx;
+  margin-bottom: 10rpx;
+}
+.navlis_one_img{
+  margin:auto;
+  width:92rpx;
+  height:92rpx;
+  line-height:92rpx;
+  font-size:36rpx;
+  font-weight:bold;
+  text-align: center;
+  color:#fff;
+  border-radius:50%;
+}
+.navlis_one_img_bg1{
+  background-color:#fbd147;
+}
+.navlis_one_img_bg2{
+  background-color:#f57430;
+}
+.navlis_one_img_bg3{
+  background-color:#fc6b6e;
+}
+.navlis_one_img_bg4{
+  background-color:#6772ff;
+}
+.navlis_one_img_bg5{
+  background-color:#46a1ea;
+}
+.navlis_one_text{
+  line-height:46rpx;
+  font-size:26rpx;
+  text-align: center;
+}
+.navlis_two{
+  min-width:20%;
+  margin-bottom: 10rpx;
+}
+.navlis_two_img{
+  font-size:46rpx;
+  color:#67a7e9;
+  padding:8rpx 0;
+  text-align: center;
+}
+.navlis_two_text{
+  line-height:34rpx;
+  font-size:26rpx;
+  text-align: center;
+}
+.topLine{
+  padding-top:10rpx;
+  padding-bottom:10rpx;
+}
+.topLineinnder{
+  width:100%;
+}
+.topLine_left{
+  font-size:60rpx;
+  color:#000;
+  padding-right:28rpx;
+}
+.swiper-container-zixun{
+  height:48rpx;
+  flex:1;
+}
+.topLine_right{
+  font-size: 30rpx;
+  color:#333;
+  overflow: hidden;
+}
+
+/* 热门小广告 */
+.sm_swiper_box{
+  width: 100%;
+  height: 96rpx; 
+  margin-bottom:28rpx;
+}
+
+
+

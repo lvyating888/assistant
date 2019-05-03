@@ -1,0 +1,328 @@
+<!--index.wxml-->
+<!-- <include src="/pages/components/popads/popads" /> -->
+<!-- bind传递给子组件要接收的方法的名称 -->
+<popads id="popads" bind:hidepop="_hidepop"/>
+<view class="container">
+    <search propA="{{'/pages/signIn/signIn'}}" ></search>
+    <swiper class='swiper-box' indicator-dots="true" autoplay="true" interval="3000" duration="1000"  circular='true'
+        indicator-color="#343434" 
+        indicator-active-color="#ffffff"
+        >
+        <block wx:for="{{ bannerUrl }}" wx:key="{{index}}">
+            <navigator url="">
+              <swiper-item>
+                  <image class="slide-image" src="{{ item.url }}" ></image>
+              </swiper-item>
+            </navigator>
+        </block>
+    </swiper>
+    <view class="navout">
+      <view class="flexout flex_between ">
+          <navigator class="navlis_one flexli_center">
+              <view class="navlis_one_img navlis_one_img_bg1">32
+              </view> 
+              <view class="navlis_one_text">
+              最新开盘
+              </view>
+          </navigator>
+          <view class="navlis_one flexli_center">
+              <view class="navlis_one_img navlis_one_img_bg2">3
+              </view> 
+              <view class="navlis_one_text">
+              正在登记
+              </view>
+          </view>
+          <view class="navlis_one flexli_center">
+              <view class="navlis_one_img navlis_one_img_bg3">27
+              </view> 
+              <view class="navlis_one_text">
+              即将摇号
+              </view>
+          </view>
+          <view class="navlis_one flexli_center">
+              <view class="navlis_one_img navlis_one_img_bg4">47
+              </view> 
+              <view class="navlis_one_text">
+              即将预售
+              </view>
+          </view>
+          <view class="navlis_one flexli_center">
+              <view class="navlis_one_img navlis_one_img_bg5">376
+              </view> 
+              <view class="navlis_one_text">
+              摇号剩余
+              </view>
+          </view>
+      </view>
+      <!-- -->
+      <view class="flexout flex_between ">
+          <navigator class="navlis_two flex_center" url="/pages/pkList/pkList">
+              <view class="iconfont icon-shuju navlis_two_img"></view> 
+              <view class="navlis_two_text">
+                楼盘PK
+              </view>
+          </navigator>
+          <view class="navlis_two flex_center">
+              <view class="iconfont icon-sousuo navlis_two_img"></view> 
+              <view class="navlis_two_text">
+                资格查询
+              </view>
+          </view>
+          <navigator class="navlis_two flex_center" 
+                 url="/pages/buildHouse/buildHouserm/buildHouserm?id=0&type=all&title=全部楼盘"
+                >
+              <view class="iconfont icon-shouye2 navlis_two_img"></view> 
+              <view class="navlis_two_text">
+                全部楼盘
+              </view>
+          </navigator>
+          <view class="navlis_two flex_center">
+              <view class="iconfont icon-house navlis_two_img"></view> 
+              <view class="navlis_two_text">
+                不限购
+              </view>
+          </view>
+      </view>
+      <!--  -->
+    </view>
+    <!-- nav end -->
+    <!-- 头条 -->
+    <!-- <view class=" topLine topLineinnder">
+      <view class="flexout  flex_end mainout">
+        <view class="topLine_left">
+          头条
+        </view>
+        <swiper class="swiper-container-zixun" autoplay="true" interval="3500" circular="true" duration="1000" vertical="true" >
+          <block wx:for="{{title}}" wx:key="{{index}}">
+            <swiper-item>
+                <view class="topLine_right textHidden">
+                  {{item.title}}
+                </view>
+            </swiper-item>
+          </block>
+        </swiper>
+       
+      </view>
+    </view> -->
+    <!-- 热门推荐 -->
+    <view class="rmlis">
+      <view class="mainout">
+        <!-- 热门头部 -->
+        <navigator class="flexout rmhead flex_between" url="/pages/buildHouse/buildHouserm/buildHouserm?id=1&title=热门推荐">
+            <view class="rmhead_left">
+              热门推荐
+            </view>
+            <view class="rmhead_right" >
+              更多>
+            </view>
+        </navigator>
+        <!--  -->
+        <view class="flexout flex_between">
+            <view class="rmggout" wx:if="{{!rmdatafalg}}">
+                <view class="nodata">暂无数据</view>
+            </view>
+            <!--  -->
+            <view class="rmggout" 
+                   wx:for="{{rmdata.dataDetails}}"
+                   wx:key="key" wx:if="{{index<=2 && rmdatafalg}}"
+            >
+                <view class="rmggimg">  
+                  <image class="imgs" src="https://www.71big.com/heqing/zhaojingwang/common/images/banner1.jpg" ></image>
+                </view>
+                <view class="rmggimg_textblack textHidden">
+                  {{item.name}}
+                </view>
+                <view class="rmggimg_texthui textHidden">
+                  {{item.address}}
+                </view>
+            </view>
+            
+            <!--  -->
+        </view>
+      </view>
+    </view>
+     <!-- 热门推荐end -->
+     <!-- 预售推荐 -->
+    <view class="rmlis" >
+      <view class="mainout">
+        <!-- 热门头部 -->
+        <navigator class="flexout rmhead flex_between" url="/pages/buildHouse/buildHouserm/buildHouserm?id=2&type=area&title=预售推荐">
+            <view class="rmhead_left">
+              预售推荐
+            </view>
+            <view class="rmhead_right">
+              更多>
+            </view>
+        </navigator>
+        <!-- 热门广告 -->
+        <view class="flexout flex_between">
+            <view class="rmggout" wx:if="{{!ysdatafalg}}">
+                <view class="nodata">暂无数据</view>
+            </view>
+            <!--  -->
+            <view class="rmggout" 
+                   wx:for="{{ysdata.dataDetails}}"
+                   wx:key="key" wx:if="{{index<=2 && ysdatafalg}}"
+            >
+                <view class="rmggimg">  
+                  <image class="imgs" src="https://www.71big.com/heqing/zhaojingwang/common/images/banner1.jpg" ></image>
+                </view>
+                <view class="rmggimg_textblack textHidden">
+                  {{item.name}}
+                </view>
+                <view class="rmggimg_texthui textHidden">
+                  {{item.address}}
+                </view>
+            </view>
+            
+            <!--  -->
+        </view>
+        <!-- 热门广告end -->
+        <!-- 热门小广告 -->
+        <swiper class='sm_swiper_box' autoplay="true" interval="3000" duration="1000"  circular='true'
+        indicator-color="#343434" 
+        indicator-active-color="#ffffff"
+        >
+            <block wx:for="{{ bannerUrl }}" wx:key="{{index}}">
+                <navigator url="">
+                  <swiper-item>
+                      <image class="slide-image" src="{{ item.url }}" ></image>
+                  </swiper-item>
+                </navigator>
+            </block>
+        </swiper>
+      </view>
+    </view>
+     <!-- 预售推荐end -->
+     <!-- 优秀顾问 -->
+    <view class="rmlis">
+      <view class="mainout">
+       
+        <view class="flexout rmhead flex_between">
+            <view class="rmhead_left">
+              优秀置业顾问推荐
+            </view>
+            <view class="rmhead_right" bindtap='gozygw'>
+              更多>
+            </view>
+        </view>
+         <!-- 优秀置业顾问lis -->
+         <view class="adviserul flexout flex_between">
+            <!-- 1 -->
+            <view class="adviserlis flexout">
+                <view class="adviserlisimg">
+                  <image class="imgs" src="https://www.71big.com/heqing/zhaojingwang/common/images/banner1.jpg"></image>
+                </view>
+                <view class="adviserlis_right">
+                    <view class="adviserlis_right_black textHidden">
+                        贾佳
+                    </view>
+                    <view class="adviserlis_right_blue textHidden">
+                       保利天禧
+                    </view>
+                </view>
+            </view>
+            <!-- 2 -->
+            <view class="adviserlis flexout">
+                <view class="adviserlisimg">
+                  <image class="imgs" src="https://www.71big.com/heqing/zhaojingwang/common/images/banner1.jpg"></image>
+                </view>
+                <view class="adviserlis_right">
+                    <view class="adviserlis_right_black textHidden">
+                        贾佳
+                    </view>
+                    <view class="adviserlis_right_blue textHidden">
+                       保利天禧
+                    </view>
+                </view>
+            </view>
+            <!-- 2 -->
+         </view>
+      </view>
+    </view>
+    <!-- 顾问end -->
+    <!-- 最新开盘 -->
+    <view class="rmlis" >
+      <!-- 最新开盘头部 -->
+      <navigator class="mainout" url="/pages/buildHouse/buildHouserm/buildHouserm?id=3&type=area&title=最新开盘" >
+        <view class="flexout rmhead flex_between">
+            <view class="rmhead_left">
+              最新开盘
+            </view>
+            <navigator class="rmhead_right">
+              更多>
+            </navigator>
+        </view>
+      </navigator>
+      <!-- 最新开盘广告 -->
+      <view class="mainout" wx:if="{{!newdatafalg}}">
+          <view class="nodata">暂无数据</view>
+      </view>
+        <navigator class="openlis"
+                   wx:for="{{newdata.dataDetails}}"
+                   wx:key="key"  
+                   url="/pages/houseDetails/houseDetails"
+                   wx:if="{{index<=2 && newdatafalg}}"
+                   >
+            <view class="mainout">
+                <view class="flexout flex_between" >
+                    <!--左侧图片-->
+                    <view class="openlisimg">
+                      <image  class="imgs" src="https://www.71big.com/heqing/zhaojingwang/common/images/banner1.jpg"></image>
+                    </view>
+                    <!--右侧文字-->
+                    <view class="openlisright">
+                        <view class=" flexout flex_between">
+                              <view class="openlisright_lione openlisright_one textHidden">
+                                 {{item.name}}
+                              </view>
+                              <view class="openlisright_litwo openlisright_two">
+                                 {{item.price}}
+                              </view>
+                        </view>
+                        <!-- 报名 -->
+                        <view class=" flexout flex_between openlisright2">
+                              <view class="openlisright_lione flexout flex_wrap">
+                                  <view class="greenlis" 
+                                  wx:for="{{item.characlis}}"
+                                  wx:key="{{keytwo}}"
+                                  wx:for-item="itemtwo"
+                                  >
+                                      {{itemtwo}}
+                                  </view>
+                                  <!-- <view class="greenlis">
+                                      交资料中
+                                  </view> -->
+                              </view>
+                              <view class="openlisright_litwo greenlis_text">
+                                   {{item.location}}
+                              </view>
+                        </view>
+                        <!-- 摇号时间 -->
+                        <view class=" flexout flex_between openlisright3">
+                              <view class=" flexout">
+                                  <view class="openlisright3_text">
+                                    摇号时间：2019-02-18
+                                  </view>
+                              </view>
+                              <view class=" flexout flex_between">
+                                <view class="flexout flex_center">
+                                  <view class="iconfont icon-eyes openlisright3_text"></view>
+                                  <view class="openlisright3_text">61.6w</view>
+                                </view>
+                                <view class="flexout flex_center">
+                                  <view class="iconfont icon-xx openlisright3_text"></view>
+                                  <view class="openlisright3_text">287</view>
+                                </view>  
+                              </view>
+                        </view>
+                    </view>
+              </view>
+          </view>  
+      </navigator>
+      
+      <!-- 最新开盘广告end -->
+    
+    </view>
+    <!-- 最新开盘end -->
+</view>

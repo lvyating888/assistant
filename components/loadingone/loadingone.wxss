@@ -1,0 +1,40 @@
+@import "../../app.wxss";
+        .loading{
+            text-align: center;
+            width: 100%;
+        }
+        .loading text{
+            display: inline-block;
+            width: 30rpx;
+            height: 30rpx;
+            margin-right: 6rpx;
+            border-radius: 50%;
+            background: #f29400;
+            -webkit-animation: load 1.04s ease infinite;
+        }
+        .loading text:last-child{
+            margin-right: 0px; 
+        }
+        @-webkit-keyframes load{
+            0%{
+                opacity: 1;
+            }
+            100%{
+                opacity: 0;
+            }
+        }
+        .loading text:nth-child(1){
+            -webkit-animation-delay:0.13s;
+        }
+        .loading text:nth-child(2){
+            -webkit-animation-delay:0.26s;
+        }
+        .loading text:nth-child(3){
+            -webkit-animation-delay:0.39s;
+        }
+        .loading text:nth-child(4){
+            -webkit-animation-delay:0.52s;
+        }
+        .loading text:nth-child(5){
+            -webkit-animation-delay:0.65s;
+        }

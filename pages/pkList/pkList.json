@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "pk_bottom": "/components/pk_bottom/pk_bottom"
+  },
+  "navigationBarTitleText": "PK列表"
+}

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "searchlis": "/components/searchlis/searchlis"
+  },
+  "navigationBarTitleText": "置业顾问排行榜"
+}

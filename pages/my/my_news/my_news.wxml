@@ -1,0 +1,44 @@
+<!--pages/my/my_news/my_news.wxml-->
+
+<view>
+    <!--  -->
+    <view class="news_lis mainout flexout ">
+        <view class="news_lis_left flexli_center">
+                <image class="user_img" src="https://www.71big.com/heqing/zhaojingwang/common/images/banner1.jpg" ></image>
+        </view>
+        <view class="news_lis_center">
+             <view class="user_name">
+                    杨树林
+             </view>
+             <view class="user_msg textHidden">
+                [信息卡片]
+             </view>
+        </view>
+        <view>
+              <view class="user_msg">
+                  20:18
+              </view>
+         </view>
+    </view>
+    <!--  -->
+    <!--  -->
+    <view class="news_lis mainout flexout ">
+        <view class="news_lis_left flexli_center">
+                <image class="user_img" src="https://www.71big.com/heqing/zhaojingwang/common/images/banner1.jpg" ></image>
+        </view>
+        <view class="news_lis_center">
+             <view class="user_name">
+                    杨树林
+             </view>
+             <view class="user_msg textHidden">
+                [信息卡片]
+             </view>
+        </view>
+        <view>
+              <view class="user_msg">
+                  20:18
+              </view>
+         </view>
+    </view>
+    <!--  -->
+</view>

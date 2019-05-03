@@ -1,0 +1,219 @@
+<view class="container bodycolor">
+      <searchlis bind:getSeachval="getSeachval"
+                 bind:getDataVal="getDataVal"
+                 propA="{{propA}}"
+                 showclose="{{showclose}}"
+      ></searchlis>
+      <view class="searchout">
+          <view class="searchtitle flexout flex_between">
+              <view class="viewleft">
+                  热门搜索
+              </view>
+          </view>
+          <!-- 关键词 -->
+          <view class='flexout flex_wrap searchlisword'>
+              <view class="searchlisone" bindtap='setval' data-val="中德苹果111">
+                中德苹果111
+              </view>
+              <view class="searchlisone" bindtap='setval' data-val="中德苹果">
+                中德苹果
+              </view>
+              <view class="searchlisone">
+                中德苹果
+              </view>
+              <view class="searchlisone">
+                中德苹果
+              </view>
+              <view class="searchlisone">
+                中德苹果
+              </view>
+          </view>
+      </view>
+      <view class="searchout">
+          <view class="searchtitle flexout flex_between">
+              <view class="viewleft">
+                  近期搜索
+              </view>
+              <view class="iconfont icon-lajixiang viewRight"></view>
+          </view>
+          <!-- 关键词 -->
+          <view class='flexout flex_wrap searchlisword'>
+              <view class="searchlistwo">
+                中德苹果111
+              </view>
+          </view>
+      </view>
+      
+      <!-- 全部最新开盘广告 -->
+      <view class="w100" wx:if="{{houseTabnumber=='house_tab0'}}">
+        <navigator class="openlis" url="/pages/houseDetails/houseDetails">
+            <view class="mainout">
+                <view class="flexout flex_between" >
+                    <!--左侧图片-->
+                    <view class="openlisimg">
+                      <image  class="imgs" src="https://www.71big.com/heqing/zhaojingwang/common/images/banner1.jpg"></image>
+                    </view>
+                    <!--右侧文字-->
+                    <view class="openlisright">
+                        <view class=" flexout flex_between">
+                              <view class="openlisright_lione openlisright_one textHidden">
+                                 1优秀大家的大家搜到给偶加东大街欧舒丹
+                              </view>
+                              <view class="openlisright_litwo openlisright_two">
+                                  ￥1.19-1.39万
+                              </view>
+                        </view>
+                        <!-- 报名 -->
+                        <view class=" flexout flex_between openlisright2">
+                              <view class="openlisright_lione flexout">
+                                  <view class="greenlis">
+                                      报名结束
+                                  </view>
+                                  <view class="greenlis">
+                                      交资料中
+                                  </view>
+                              </view>
+                              <view class="openlisright_litwo greenlis_text">
+                                  天府新区
+                              </view>
+                        </view>
+                        <!-- 摇号时间 -->
+                        <view class=" flexout flex_between openlisright3">
+                              <view class=" flexout">
+                                  <view class="openlisright3_text">
+                                    摇号时间：2019-02-18
+                                  </view>
+                              </view>
+                              <view class=" flexout flex_between">
+                                <view class="flexout flex_center">
+                                  <view class="iconfont icon-eyes openlisright3_text"></view>
+                                  <view class="openlisright3_text">61.6w</view>
+                                </view>
+                                <view class="flexout flex_center">
+                                  <view class="iconfont icon-xx openlisright3_text"></view>
+                                  <view class="openlisright3_text">287</view>
+                                </view>  
+                              </view>
+                        </view>
+                    </view>
+              </view>
+          </view>
+        </navigator>
+      </view>
+      <!--  -->
+      <!-- 不限购最新开盘广告 -->
+      <view class="w100" wx:if="{{houseTabnumber=='house_tab1'}}">
+        <view class="openlis">
+            <view class="mainout">
+                <view class="flexout flex_between">
+                    <!--左侧图片-->
+                    <view class="openlisimg">
+                      <image  class="imgs" src="https://www.71big.com/heqing/zhaojingwang/common/images/banner1.jpg"></image>
+                    </view>
+                    <!--右侧文字-->
+                    <view class="openlisright">
+                        <view class=" flexout flex_between">
+                              <view class="openlisright_lione openlisright_one textHidden">
+                                  2优秀大家的大家搜到给偶加东大街欧舒丹
+                              </view>
+                              <view class="openlisright_litwo openlisright_two">
+                                  ￥1.19-1.39万
+                              </view>
+                        </view>
+                        <!-- 报名 -->
+                        <view class=" flexout flex_between openlisright2">
+                              <view class="openlisright_lione flexout">
+                                  <view class="greenlis">
+                                      报名结束
+                                  </view>
+                                  <view class="greenlis">
+                                      交资料中
+                                  </view>
+                              </view>
+                              <view class="openlisright_litwo greenlis_text">
+                                  天府新区
+                              </view>
+                        </view>
+                        <!-- 摇号时间 -->
+                        <view class=" flexout flex_between openlisright3">
+                              <view class=" flexout">
+                                  <view class="openlisright3_text">
+                                    摇号时间：2019-02-18
+                                  </view>
+                              </view>
+                              <view class=" flexout flex_between">
+                                <view class="flexout flex_center">
+                                  <view class="iconfont icon-eyes openlisright3_text"></view>
+                                  <view class="openlisright3_text">61.6w</view>
+                                </view>
+                                <view class="flexout flex_center">
+                                  <view class="iconfont icon-xx openlisright3_text"></view>
+                                  <view class="openlisright3_text">287</view>
+                                </view>  
+                              </view>
+                        </view>
+                    </view>
+              </view>
+          </view>
+        </view>
+      </view>
+      <!--  -->
+      <!-- 即将预售最新开盘广告 -->
+      <view class="w100" wx:if="{{houseTabnumber=='house_tab2'}}">
+        <view class="openlis">
+            <view class="mainout">
+                <view class="flexout flex_between">
+                    <!--左侧图片-->
+                    <view class="openlisimg">
+                      <image  class="imgs" src="https://www.71big.com/heqing/zhaojingwang/common/images/banner1.jpg"></image>
+                    </view>
+                    <!--右侧文字-->
+                    <view class="openlisright">
+                        <view class=" flexout flex_between">
+                              <view class="openlisright_lione openlisright_one textHidden">
+                                  3优秀大家的大家搜到给偶加东大街欧舒丹
+                              </view>
+                              <view class="openlisright_litwo openlisright_two">
+                                  ￥1.19-1.39万
+                              </view>
+                        </view>
+                        <!-- 报名 -->
+                        <view class=" flexout flex_between openlisright2">
+                              <view class="openlisright_lione flexout">
+                                  <view class="greenlis">
+                                      报名结束
+                                  </view>
+                                  <view class="greenlis">
+                                      交资料中
+                                  </view>
+                              </view>
+                              <view class="openlisright_litwo greenlis_text">
+                                  天府新区
+                              </view>
+                        </view>
+                        <!-- 摇号时间 -->
+                        <view class=" flexout flex_between openlisright3">
+                              <view class=" flexout">
+                                  <view class="openlisright3_text">
+                                    摇号时间：2019-02-18
+                                  </view>
+                              </view>
+                              <view class=" flexout flex_between">
+                                <view class="flexout flex_center">
+                                  <view class="iconfont icon-eyes openlisright3_text"></view>
+                                  <view class="openlisright3_text">61.6w</view>
+                                </view>
+                                <view class="flexout flex_center">
+                                  <view class="iconfont icon-xx openlisright3_text"></view>
+                                  <view class="openlisright3_text">287</view>
+                                </view>  
+                              </view>
+                        </view>
+                    </view>
+              </view>
+          </view>
+        </view>
+      </view>
+      <!--  -->
+</view>
+

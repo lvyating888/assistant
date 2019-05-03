@@ -1,0 +1,9 @@
+<view class="house_tabul mainout flexout" >
+    <view class="{{followTabnumber == 'follow_tab0' ? 'house_tablis flexli_center house_tablis_textact' : 'house_tablis flexli_center house_tablis_text'}}"
+          bindtap="change" data-number='follow_tab0'>
+        楼盘
+    </view>
+    <view class="{{followTabnumber == 'follow_tab1' ? 'house_tablis flexli_center house_tablis_textact' : 'house_tablis flexli_center house_tablis_text'}}" bindtap="change" data-number='follow_tab1'>
+        顾问
+    </view>
+</view>

@@ -1,0 +1,255 @@
+<!--pages/lookDetails/lookDetails.wxml-->
+<view class="container_two bodyColor">
+    <view class="marginpadLeft flexout flex_between message_title">
+        <view style="flex:1">
+          <view class="message_title_black">
+            雍正府邸大声大大的打算的 
+          </view>
+          <view class="message_hui">
+            高新区 
+          </view>
+        </view>
+        <view class="share_btn flexout flex_center">
+            <view class="icon iconfont icon-fenxiang3 shareicon_one"></view>
+            <view class="shareicon ">
+              分享
+            </view>
+        </view>
+    </view>
+    <!--  -->
+    <view class="marginpadLeft">
+        <view class="mainlis flexout flex_center">
+            <view class="mainlis_left">
+              <view class="message_hui">
+                  参考价格 
+              </view>
+            </view>
+            <view class="mainlis_right">
+              <view class="message_black">
+                   暂无
+              </view>
+            </view>
+        </view>
+        <!--  -->
+        <view class="mainlis flexout flex_center">
+            <view class="mainlis_left">
+              <view class="message_hui">
+                  楼盘地址 
+              </view>
+            </view>
+            <view class="mainlis_right">
+              <view class="message_black flexout flex_between">
+                   <view class="message_black">
+                      成都大声大声的大声
+                   </view>
+                   <view class="icon iconfont icon-more2 message_hui message_more"></view>
+              </view>
+            </view>
+        </view>
+        <!--  -->
+        <view class="mainlis flexout flex_center">
+            <view class="mainlis_left">
+              <view class="message_hui">
+                  开发商 
+              </view>
+            </view>
+            <view class="mainlis_right">
+              <view class="message_black">
+                   成都远来房地产开发公司
+              </view>
+            </view>
+        </view>
+    </view>
+    <!--  -->
+    <view class="marginpadLeft">
+          <view class="mainlis flexout flex_center">
+            <view class="mainlis_left">
+              <view class="message_hui">
+                  楼盘类型 
+              </view>
+            </view>
+            <view class="mainlis_right">
+              <view class="message_black flexout flex_between">
+                   住宅
+              </view>
+            </view>
+        </view>
+        <!--  -->
+        <view class="mainlis flexout flex_center">
+            <view class="mainlis_left">
+              <view class="message_hui">
+                  产权年限 
+              </view>
+            </view>
+            <view class="mainlis_right">
+              <view class="message_black">
+                  70年
+              </view>
+            </view>
+        </view>
+        <!--  -->
+        <view class="mainlis flexout flex_center">
+            <view class="mainlis_left">
+              <view class="message_hui">
+                  绿化率 
+              </view>
+            </view>
+            <view class="mainlis_right">
+              <view class="message_black">
+                  25.00%
+              </view>
+            </view>
+        </view>
+        <!--  -->
+        <view class="mainlis flexout flex_center">
+            <view class="mainlis_left">
+              <view class="message_hui">
+                  容积率 
+              </view>
+            </view>
+            <view class="mainlis_right">
+              <view class="message_black">
+                  3.00
+              </view>
+            </view>
+        </view>
+        <!--  -->
+        <view class="mainlis flexout flex_center">
+            <view class="mainlis_left">
+              <view class="message_hui">
+                  车位信息 
+              </view>
+            </view>
+            <view class="mainlis_right">
+              <view class="message_black">
+                  672个
+              </view>
+            </view>
+        </view>
+        <!--  -->
+        <view class="mainlis flexout flex_center">
+            <view class="mainlis_left">
+              <view class="message_hui">
+                  环线数 
+              </view>
+            </view>
+            <view class="mainlis_right">
+              <view class="message_black">
+                  饶外城
+              </view>
+            </view>
+        </view>
+        <!--  -->
+        <view class="mainlis flexout flex_center">
+            <view class="mainlis_left">
+              <view class="message_hui">
+                  占地面积 
+              </view>
+            </view>
+            <view class="mainlis_right">
+              <view class="message_black">
+                  100m
+              </view>
+            </view>
+        </view>
+        <!--  -->
+        <view class="mainlis flexout flex_center">
+            <view class="mainlis_left">
+              <view class="message_hui">
+                  物业类型 
+              </view>
+            </view>
+            <view class="mainlis_right">
+              <view class="message_black">
+                  100m
+              </view>
+            </view>
+        </view>
+        <!--  -->
+        <view class="mainlis flexout flex_center">
+            <view class="mainlis_left">
+              <view class="message_hui">
+                  物业公司 
+              </view>
+            </view>
+            <view class="mainlis_right">
+              <view class="message_black">
+                  100m
+              </view>
+            </view>
+        </view>
+        <!--  -->
+        <view class="mainlis flexout flex_center">
+            <view class="mainlis_left">
+              <view class="message_hui">
+                  物业费用 
+              </view>
+            </view>
+            <view class="mainlis_right">
+              <view class="message_black">
+                  100m
+              </view>
+            </view>
+        </view>
+  </view>
+  <!--  -->
+  <!--  -->
+   <view class="marginpadLeft">
+          <view class="mainlis ">
+            <view class="font_bold">
+              <view class="message_hui">
+                  楼盘类型 
+              </view>
+            </view>
+          </view>
+          <view class="mainlis ">
+            <view class="font_bold">
+              <view class="message_black">
+                  暂无 
+              </view>
+            </view>
+          </view>
+        <!--  -->
+    </view>
+    <!--  -->
+    <view class="marginpadLeft">
+        <view class="mainlis flexout flex_center">
+            <view class="w40">
+              <view class="message_hui font_bold ">
+                  预售证号 
+              </view>
+            </view>
+            <view class="w30">
+              <view class="message_black font_bold">
+                  发证时间
+              </view>
+            </view>
+            <view class="w30">
+              <view class="message_black font_bold">
+                  摇号批次
+              </view>
+            </view>
+        </view>
+        <!--  -->
+        <view class="mainlis flexout flex_center">
+            <view class="w40">
+              <view class="message_hui  ">
+                  1000001 
+              </view>
+            </view>
+            <view class="w30">
+              <view class="message_black">
+                  2018-10-10 10:00:00
+              </view>
+            </view>
+            <view class="w30">
+              <view class="message_black ">
+                  蓝光雍丽项目1、5、8号楼
+              </view>
+            </view>
+        </view>
+        <!--  -->
+    </view>
+    <!--  -->
+</view>
+<message_bottom />

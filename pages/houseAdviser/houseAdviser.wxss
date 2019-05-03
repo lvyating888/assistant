@@ -1,0 +1,164 @@
+/* pages/houseAdviser/houseAdviser.wxss */
+.adviser_out{
+  position:absolute;
+}
+.adviser_top{
+  width: 100%;
+  height:382rpx;
+  background-color: #5899f7;
+  position: relative;
+}
+.adviser_top_bg{
+  position:absolute;
+  bottom:0;
+  width:592rpx;
+  height:176rpx;
+  left:50%;
+  margin-left:-296rpx;
+}
+.adviser_top_title{
+  padding:22rpx 0;
+  line-height:54rpx;
+  font-size:30rpx;
+  color:#fff;
+  font-weight: bold;
+}
+.top_lis{
+  width:156rpx;
+  height:156rpx;
+  border-radius: 50%;
+  box-sizing: border-box;
+  z-index: 6;
+  background-color: #fff;
+  position: absolute;
+  overflow: hidden;
+}
+.icon_user_out::before{
+  position: absolute;
+  font-family: "iconfont" !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\e642";
+  font-size:36rpx;
+}
+.top_lis_text{
+  width: 180rpx;
+  height:90rpx;
+  position: absolute;
+  z-index: 1;
+}
+.top_lis_text_two{
+    left:78rpx;
+    bottom:14rpx;
+}
+.top_lis_text_one{
+    left:50%;
+    margin-left:-90rpx;
+    bottom:34rpx;
+}
+.top_lis_text_three{
+    right:78rpx;
+    bottom:14rpx;
+}
+.top_lis_text_title{
+  line-height:52rpx;
+  font-size:30rpx;
+  color:#fff;
+  text-align: center;
+}
+.top_lis_text_smtitle{
+  line-height:42rpx;
+  font-size:24rpx;
+  color:#fff;
+  text-align: center;
+}
+.top_lis_one{
+  border:6rpx solid #f89e10;
+  left:50%;
+  margin-left:-78rpx;
+  top:72rpx;
+}
+.top_lis_two{
+  border:6rpx solid #f6f5f7;
+  left:90rpx;
+  bottom:120rpx;
+}
+.top_lis_three{
+  border:6rpx solid #ffcf7a;
+  right:90rpx;
+  bottom:120rpx;
+}
+.top_lis_user{
+   width: 100%;
+   height:100%;
+   overflow:hidden;
+}
+.ad_middle_out{
+  margin:20rpx 0;
+  height:20rpx;
+  border-left:8rpx solid #4f78e2;
+}
+.ad_middle_title{
+  padding-left:12rpx;
+  font-size:26rpx;
+}
+.ad_lispeople{
+   background-color:#fff;
+   margin-bottom:20rpx;
+   padding-top:18rpx;
+   padding-bottom:18rpx;
+}
+.ad_lispeople_number{
+    width: 76rpx;
+    text-align: center;
+    color:#9e9e9e;
+}
+.user_img{
+    width:96rpx;
+    height:96rpx;
+    border-radius:50%;
+    overflow: hidden;
+    margin-left:14rpx;
+}
+.user_img_right{
+  padding-left:16rpx;
+  min-width:454rpx;
+  flex:1;
+}
+.user_img_rone{
+  line-height:66rpx;
+}
+.user_img_rname{
+  font-size:30rpx;
+  padding-right:32rpx;
+  color:#000;
+}
+.user_img_duties{
+  font-size:28rpx;
+  padding-right:32rpx;
+  color:#666;
+}
+.user_img_duties_two{
+  line-height:60rpx;
+}
+.user_img_act{
+  font-size:30rpx;
+  color:#333;
+}
+.ad_lispeople_bot_ul{
+  padding-left:76rpx;
+  height:60rpx;
+}
+.ad_lispeople_bot_lis{
+  padding:0 6px;
+}
+.iconlis{
+  color:#666666;
+  padding-right:8rpx;
+  font-size:36rpx;
+}
+.iconlis_right{
+  font-size:26rpx;
+  color:#666;
+}

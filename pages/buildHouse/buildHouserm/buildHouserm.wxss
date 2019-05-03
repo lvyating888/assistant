@@ -1,0 +1,2 @@
+@import "/utils/common.wxss";
+@import "/pages/buildHouse/buildHouse.wxss";

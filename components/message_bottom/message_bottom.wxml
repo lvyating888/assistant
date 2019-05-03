@@ -1,0 +1,21 @@
+
+<view class="message_bottom w100 flexout "  >
+    <view class="mainout flexout w100 flex_center">
+        <view class="w20 flexli_center" wx:if="{{follow}}">
+            <view class="icon iconfont icon-start w20_one"></view>
+            <view class="w20_two">
+              关注
+            </view>
+        </view>
+        <view class="{{follow ? 'w40': 'w50'}}">
+            <view class="w40_btn_one w40_btn">
+                联系置业顾问
+            </view>
+        </view>
+        <view class="{{follow ? 'w40': 'w50'}}">
+            <view class="w40_btn_two w40_btn">
+              电话咨询
+            </view>
+        </view>
+    </view>
+</view>

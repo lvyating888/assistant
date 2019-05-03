@@ -1,0 +1,59 @@
+/* pages/my/my_message/my_message.wxss */
+.my_message{
+  position: absolute;
+  padding-bottom:90rpx;
+  box-sizing: border-box;
+  background-color: #f7f7f7;
+}
+.my_message_botbtn{
+  position: fixed;
+  width: 100%;
+  bottom:0;
+  left:0;
+  height:90rpx;
+  background-color: #fff;
+}
+.msg_btn{
+  width:100%;
+  height:76rpx;
+  background-color: #3772cc;
+  text-align: center;
+  line-height:76rpx;
+  color:#fff;
+  border-radius:12rpx;
+}
+.my_message_lis{
+    background-color: #fff;
+    border-radius:20rpx;
+    margin-top:30rpx;
+    padding-top:20rpx;
+    padding-bottom:20rpx;
+}
+.my_message_left{
+  padding-left:58rpx;
+  padding-right:28rpx;
+  flex:1;
+  box-sizing: border-box;
+}
+.my_message_btn{
+  height:60rpx;
+  border-radius:24rpx;
+  padding-left:24rpx;
+  padding-right:24rpx;
+  border:2rpx solid #868686;
+  color:#888;
+  text-align: center;
+  line-height:60rpx;
+  font-size:28rpx;
+}
+.font_text{
+  line-height:48rpx;
+  padding:10rpx 0;
+  font-size:30rpx;
+}
+.font_text_black{
+  color:#000;
+}
+.font_text_hui{
+  color:#666666;
+}

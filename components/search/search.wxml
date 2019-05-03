@@ -1,0 +1,21 @@
+<view class="search ">
+  <view class="searchinner flexout flex_grow2">
+        <navigator url='{{propA}}' class="searchleft flexli_center">
+          <view class="iconfont icon-qiandao"></view>
+          <view class="searchtext" > 
+            签到
+          </view>
+        </navigator>
+        <navigator class="searchinputout flexout flex_grow2 flexli_center" url="/pages/searchPage/searchPage">
+          <view class="iconfont icon-sousuo1 flexli_center"></view>
+          <input class=" flex_grow2 flexli_center searchinput" placeholder='搜索阿大声道' disabled='true'></input>
+        </navigator>
+        <view class="searchleft flexli_center">
+          <view class="iconfont icon-fenxiang"></view>
+          <view class="searchtext">
+            分享
+          </view>
+        </view>
+  </view>
+  
+</view>

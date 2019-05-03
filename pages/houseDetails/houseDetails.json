@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "message_bottom": "/components/message_bottom/message_bottom"
+  }
+}

@@ -1,0 +1,76 @@
+/* pages/lookDetails/lookDetails.wxss */
+.marginpadLeft{
+  padding-left:30rpx;
+  margin-bottom:18rpx;
+  background-color: #ffffff;
+  width: 100%;
+  box-sizing: border-box;
+}
+.bodyColor{
+  background-color:#f7f7f7;
+}
+.message_title{
+  padding-top:24rpx;
+  padding-bottom:24rpx;
+}
+.message_title_black{
+  color:#333;
+  font-size:36rpx;
+  line-height: 58rpx;
+}
+.message_hui{
+  color:#666666;
+  font-size:30rpx;
+  line-height: 42rpx;
+}
+.message_black{
+  color:#333333;
+  font-size:30rpx;
+  line-height: 42rpx;
+}
+.share_btn{
+  width:148rpx;
+  height:68rpx;
+  border-top-left-radius:40rpx;
+  border-bottom-left-radius:40rpx;
+  background-color: #f4f4f4;
+}
+.shareicon_one{
+  font-size:40rpx;
+  padding-right:8rpx;
+}
+.shareicon{
+  font-size:28rpx;
+}
+.shareicon_one,.shareicon{
+  color:#5a6ca0;
+}
+.mainlis{
+  line-height: 42rpx;
+  border-bottom:2rpx solid #e2e2e2;
+  padding-top:32rpx;
+  padding-bottom:32rpx;
+}
+.mainlis_left{
+  width:22%;
+  padding-right:2%;
+}
+.mainlis_right{
+  width:76%;
+}
+.message_more{
+  padding-right:30rpx;
+  font-size:46rpx;
+}
+.font_bold{
+  font-weight: bold;
+}
+.w40{
+  width:40%;
+  box-sizing:border-box;
+}
+.w30{
+  width:30%;
+  box-sizing:border-box;
+  padding:0 2%;
+}

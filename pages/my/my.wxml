@@ -1,0 +1,104 @@
+<view class="my_out">
+   <view class="my_top flexout flex_between flex_center">
+        <view class="my_top_left  flexout flex_center"  wx:if="{{!hasUserInfo && canIUse}}">
+            <image src="https://www.71big.com/heqing/zhaojingwang/common/images/banner1.jpg" class="user_img"></image>
+             <!-- <view class="user_name" bindtap='getUserInfo'>
+                点击获取头像昵称
+             </view> -->
+             <button open-type="getUserInfo" bindgetuserinfo="getUserInfo" class="user_name"> 获取头像昵称 </button>
+        </view>
+        <view class="my_top_left  flexout flex_center"   wx:else>
+            <image src="{{userInfo.avatarUrl}}" class="user_img" mode="cover"></image>
+             <view class="user_name">
+                {{userInfo.nickName}}
+             </view>
+        </view>
+        <view class="my_top_right flexout">
+              <view class="share_btn share_btn_one flexout flex_center">
+                  <view class="icon iconfont icon-rili share_btn_icon"></view>
+                  <view class="share_btn_text">
+                       签到
+                  </view>
+              </view>
+              <view class="share_btn share_btn_two flexout flex_center">
+                  <view class="icon iconfont icon-fenxiang share_btn_icon"></view>
+                  <view class="share_btn_text">
+                       签到
+                  </view>
+              </view>
+        </view>
+   </view>
+   <!-- mytop end -->
+   <view class="my_bottom">
+        <!-- tablis -->
+        <view class="mainout">
+            <!-- 我的消息 -->
+            <view class="tabul flexout flex_between">
+                <navigator class="tablis" url="/pages/chat/chat">
+                    <view class="icon iconfont icon-xiaoxi1 tablis_yellow tablis_icon"></view>
+                    <view class="tablis_text">
+                         我的消息
+                    </view>
+                </navigator>
+                <navigator class="tablis" url="/pages/my/my_follow/my_follow">
+                    <view class="icon iconfont icon-start tablis_yellow tablis_icon"></view>
+                    <view class="tablis_text">
+                         我的关注
+                    </view>
+                </navigator>
+            </view>
+            <!-- 我的消息end -->
+            <!-- 常用功能 -->
+            <view class="tabul ">
+                <view class="tablis_title tablis">
+                      常用功能
+                </view>
+                <view class="flexout flex_between">
+                      <navigator class="tablis" url="/pages/my/my_message/my_message">
+                          <view class="icon iconfont icon-xinxi tablis_blue tablis_icon"></view>
+                          <view class="tablis_text">
+                              身份信息
+                          </view>
+                      </navigator>
+                      <navigator class="tablis" url="/pages/checkIn/checkIn">
+                          <view class="icon iconfont icon-shouye2 tablis_blue tablis_icon"></view>
+                          <view class="tablis_text">
+                              我要入驻
+                          </view>
+                      </navigator>
+                      <view class="tablis">
+                          <view class="icon iconfont icon-house tablis_blue tablis_icon"></view>
+                          <view class="tablis_text">
+                              购房资料
+                          </view>
+                      </view>
+                </view>
+            </view>
+            <!-- 常用功能 end -->
+            <!-- 更多服务 -->
+            <view class="tabul ">
+                <view class="tablis_title tablis">
+                      更多服务
+                </view>
+                <view class="flexout flex_between">
+                      <view class="tablis">
+                          <view class="icon iconfont icon-weixin-o tablis_blue tablis_icon"></view>
+                          <view class="tablis_text">
+                              微信公众号
+                          </view>
+                      </view>
+                    
+                      <view class="tablis">
+                          <view class="icon iconfont icon-bumanyi tablis_blue tablis_icon"></view>
+                          <view class="tablis_text">
+                              用的不爽
+                          </view>
+                      </view>
+                </view>
+            </view>
+            <!-- 常用功能 end -->
+        </view>
+        <!--  -->
+   </view>
+   
+</view>

@@ -1,0 +1,111 @@
+/* /pages/checkIn/css/checkReComm.wxss */
+.checkRegister_out{
+  background-color: #f7f7f7;
+  min-height: 100%;
+  position: absolute;
+  width:100%;
+}
+.checkRegister_title{
+  padding-top:16rpx;
+  padding-bottom:16rpx;
+  line-height:44rpx;
+}
+.checkRegister_title_black{
+  color:#000;
+  font-size:30rpx;
+}
+.checkRegister_title_blue{
+  color:#7484b5;
+  font-size:26rpx;
+}
+.user_lis_left{
+  width:140rpx;
+  padding-right:26rpx;
+  font-size:30rpx;
+  color:#666;
+}
+.user_lis{
+  min-height:100rpx;
+  width: 100%;
+}
+.user_lis_right{
+  flex:1;
+  box-sizing: border-box;
+}
+.user_lis_right input{
+  height:100rpx;
+  line-height:100rpx;
+  border:0;
+  border-bottom:2rpx solid #e5e5e5;
+  font-size:28rpx;
+  color:#999;
+  box-sizing: border-box;
+}
+.user_lis_left_li{
+  line-height:80rpx;
+}
+.user_ul{
+  background-color: #fff;
+}
+.red_text{
+  color:#b21824;
+}
+.user_lis_right_mid{
+  font-size:28rpx;
+  color:#333;
+  flex:1;
+  box-sizing:border-box;
+  padding-right:16rpx;
+}
+.user_lis_right_rig{
+  font-size:28rpx;
+  color:#0ab4b4;
+}
+.icon_more{
+  font-size:32rpx;
+  color:#0ab4b4;
+  padding-left:8rpx;
+}
+.hui_text{
+  color:#666;
+  font-size:26rpx;
+}
+.user_poto_lis{
+  width:50%;
+  margin:0 auto;
+  padding-top:30rpx;
+  padding-bottom:20rpx;
+}
+.user_poto_lis_img{
+  width:124rpx;
+  height:124rpx;
+  border-radius:8rpx;
+  display: block;
+  margin:0 auto;
+}
+.user_poto_lis_text{
+  line-height:60rpx;
+  font-size:26rpx;
+  color:#888888;
+  text-align: center;
+}
+.next_btn{
+  margin:40rpx 0;
+  line-height:74rpx;
+  text-align: center;
+  font-size:30rpx;
+  color:#fff;
+  background-color: #4372e4;
+  border-radius:36rpx;
+}
+.note_ul{
+  padding-top:20rpx;
+  padding-bottom:20rpx;
+}
+.notelis{
+  line-height:46rpx;
+  padding-top:6rpx; 
+  padding-bottom:6rpx; 
+  font-size:28rpx;
+  color:#747474;
+}

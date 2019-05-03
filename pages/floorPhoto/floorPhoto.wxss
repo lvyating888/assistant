@@ -1,0 +1,11 @@
+/* pages/floorPhoto/floorPhoto.wxss */
+.tabArry_photolis{
+  width:50%;
+  padding:40rpx 0;
+}
+.tabArry_photolis_img{
+  width:240rpx;
+  margin:0 auto;
+  height:240rpx;
+  display: block;
+}

@@ -1,0 +1,33 @@
+/* pages/pkList/pkList.wxss */
+@import "/pages/index/index.wxss";
+.openlisright {
+  width:56%;
+}
+
+.checkbox {
+  vertical-align: middle;
+  display: inline-block;
+  position: relative;
+  padding-left: 20px;
+}
+ .checkbox_out{
+   padding-right: 20rpx;
+ }
+.checkbox-hidden {
+  position: absolute;
+  left: -9999px;
+}
+ 
+ 
+.checkbox-nogroup-circle-icon {
+  position: absolute;
+  top: 50%;
+  margin-top: -20rpx;
+  left: 0px;
+  vertical-align: middle;
+  display: inline-block;
+  border: none;
+  width: 40rpx;
+  height: 40rpx;
+  line-height: 18px;
+}

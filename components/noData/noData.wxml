@@ -1,0 +1,10 @@
+<!-- <view class="noData">
+   
+</view> -->
+
+<view class="noDataMiddle">
+        <view class="icon iconfont icon-zanwu noData_icon"></view>
+        <view class="noData_icon_text">
+            {{words ? words : '暂无信息'}}
+        </view>
+</view>

@@ -1,0 +1,28 @@
+@import "../../app.wxss";
+.scroll_out{
+  position:fixed;
+  top:0;
+  left:0;
+}
+.scroll_box{
+  width: 100%;
+  height: 100rpx;
+  overflow: hidden;
+  background: #fff;
+  white-space: nowrap;
+}
+.item_list{
+  min-width: 90rpx;
+  height: 100%;
+  margin-right: 46rpx;
+  display: inline-block;
+  box-sizing: border-box;
+  color:#333;
+  border-bottom:4rpx solid #fff;
+  font-size:30rpx;
+  line-height:96rpx; 
+}
+.item_list_act{
+  color:#3970d7;
+  border-bottom:4rpx solid #3970d7;
+}

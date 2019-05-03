@@ -1,0 +1,30 @@
+<!--pages/checkIn/checkIn.wxml-->
+<view class="checkInout">
+    <image src="./images/checkIn_bg.jpg" class='imgs' > </image>  
+    <navigator class="checkIn_lis"  url='/pages/checkIn/checkRegister/checkRegister'>
+        <view class="checkIn_lis_bot checkIn_lis_bot_white">
+              <view class="checkIn_lis_main">
+                  <view class="icon_bg icon_bg_red">
+                      <view class="icon iconfont icon-guwen icon_bg_text icon_bg_text_red">                             </view>
+                  </view>
+                  <view class="icon_bg_text_bot icon_bg_text_red">
+                      置业顾问入住
+                  </view>
+              </view>
+        </view>
+        <view class="checkIn_lis_bot checkIn_lis_bot_red"></view>
+    </navigator>
+    <navigator class="checkIn_lis" url='/pages/checkIn/checkAgent/checkAgent'>
+        <view class="checkIn_lis_bot checkIn_lis_bot_white">
+              <view class="checkIn_lis_main">
+                  <view class="icon_bg icon_bg_blue">
+                      <view class="icon iconfont icon-guwen icon_bg_text icon_bg_text_blue">                             </view>
+                  </view>
+                  <view class="icon_bg_text_bot icon_bg_text_blue">
+                      经纪人入住
+                  </view>
+              </view>
+        </view>
+        <view class="checkIn_lis_bot checkIn_lis_bot_blue"></view>
+    </navigator>
+</view>

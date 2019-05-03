@@ -1,0 +1,41 @@
+@import "../../app.wxss";
+.search{
+  position: fixed;
+  left:0;
+  top:0;
+  background-color:#3571c9;
+  width: 100%;
+  height:128rpx;
+  z-index:11;
+}
+.searchinner{
+ padding:20rpx 0;
+}
+.searchleft{
+   padding:0 22rpx;
+   color:#fff;
+   text-align: center;
+}
+.searchtext{
+  font-size:22rpx;
+  line-height:40rpx;
+}
+.searchinputout{
+  border-radius:12rpx;
+  background-color: #fff;
+  height:80rpx;
+}
+.searchinput{
+  border:0;
+  background:none;
+  font-size:36rpx;
+  color:#aaa;
+}
+.icon-qiandao,.icon-fenxiang{
+  font-size:54rpx;
+}
+.icon-sousuo1{
+    font-size:54rpx;  
+    padding:0 16rpx;
+    color:#aaa;
+}

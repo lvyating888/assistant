@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "searchlis": "/components/searchlisnew/searchlisnew"
+  },
+  "navigationBarTitleText": "楼盘搜索"
+}

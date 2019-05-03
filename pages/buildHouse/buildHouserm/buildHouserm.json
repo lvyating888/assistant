@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "searchlis": "/components/searchlis/searchlis",
+    "houseScreen": "/components/house_screen/house_screen",
+    "loadingone": "/components/loadingone/loadingone",
+    "noData":"/components/noData/noData",
+    "goback":"/components/goback/goback"
+  },
+  "navigationBarTitleText": "热门推荐"
+}

@@ -1,0 +1,12 @@
+<view class="house_tabul mainout flexout flex_between" >
+    <view class="{{houseTabnumber == 'house_tab0' ? 'house_tablis flexli_center house_tablis_textact' : 'house_tablis flexli_center house_tablis_text'}}"
+          bindtap="change" data-number='house_tab0' data-index='{{0}}'>
+        全部
+    </view>
+    <view class="{{houseTabnumber == 'house_tab1' ? 'house_tablis flexli_center house_tablis_textact' : 'house_tablis flexli_center house_tablis_text'}}" bindtap="change" data-number='house_tab1' data-index='{{1}}'>
+        不限购
+    </view>
+    <view class="{{houseTabnumber == 'house_tab2' ? 'house_tablis flexli_center house_tablis_textact' : 'house_tablis flexli_center house_tablis_text'}}"  bindtap="change" data-number='house_tab2' data-index='{{2}}'>
+        即将预售
+    </view>
+</view>

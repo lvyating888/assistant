@@ -1,0 +1,69 @@
+{
+  "pages": [
+    
+    "pages/index/index",
+    "pages/checkIn/checkIn",
+    "pages/houseAdviser/houseAdviser",
+    "pages/signIn/signIn",
+    
+    "pages/my/my",
+    "pages/my/my_follow/my_follow",
+    "pages/my/my_message/my_message",
+    "pages/my/my_news/my_news",
+    "pages/my/addMessage/addMessage",
+    
+    "pages/checkIn/checkAgent/checkAgent",
+    "pages/checkIn/checkRegister/checkRegister",
+    "pages/houseAdviser/AdviserMessage/AdviserMessage",
+
+    "pages/buildHouse/buildHouse",
+    "pages/buildHouse/buildHouserm/buildHouserm",
+
+    "pages/searchPage/searchPage",
+    
+    "pages/houseDetails/houseDetails",
+    "pages/lookDetails/lookDetails",
+    "pages/pkList/pkList",
+    "pages/pkList/pkDetails/pkDetails",
+    "pages/floorPhoto/floorPhoto",
+    "pages/chat/chat"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "西安买房助手"
+  },
+  "tabBar": {
+    "color": "#333333",
+    "selectedColor": "#3074c7",
+    "borderStyle": "black",
+    "list": [
+      {
+        "selectedIconPath": "/utils/static/imgs/home-select.png",
+        "iconPath": "/utils/static/imgs/home.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "/utils/static/imgs/more-select.png",
+        "iconPath": "/utils/static/imgs/more.png",
+        "pagePath": "pages/buildHouse/buildHouse",
+        "text": "楼盘"
+      },
+      {
+        "selectedIconPath": "/utils/static/imgs/adviser-select.png",
+        "iconPath": "/utils/static/imgs/adviser.png",
+        "pagePath": "pages/houseAdviser/houseAdviser",
+        "text": "置业顾问"
+      },
+      {
+        "selectedIconPath": "/utils/static/imgs/my-select.png",
+        "iconPath": "/utils/static/imgs/my.png",
+        "pagePath": "pages/my/my",
+        "text": "我的"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,284 @@
+<!--pages/houseDetails/houseDetails.wxml-->
+<view class="container_two">
+  <view class='swiper-container'>
+      <view class="swiper_look">
+          <view class="swiper_look_bg"></view>
+          <view class="swiper_look_text">
+              1.5w 浏览
+          </view>
+      </view>
+        <navigator class="forpk" url="/pages/pkList/pkList">
+            <view class="forward_bg"></view>
+            <view class="forward_bg_text">PK</view>
+        </navigator>
+        <view class="forward">
+            <view class="forward_bg"></view>
+            <view class="icon iconfont icon-fenxiang1 forward_bg_text"></view>
+        </view>
+      <swiper class='swiper-box' indicator-dots="true" autoplay="true" interval="3000" duration="1000"  circular='true'
+        indicator-color="#343434" 
+        indicator-active-color="#ffffff"
+        >
+        
+        <block wx:for="{{ bannerUrl }}" wx:key="{{index}}">
+            <navigator url="">
+              <swiper-item>
+                  <image class="slide-image" src="{{ item.url }}" ></image>
+              </swiper-item>
+            </navigator>
+        </block>
+      </swiper>
+  </view>
+    <!-- swiper end -->
+    <!--  -->
+    <view class="show_message ">
+        <view class="mainout flexout flex_end">
+            <view class="show_message_left">
+                <!--  -->
+                <view class="flexout flex_wrap">
+                    <view class="show_message_title flexli_center">
+                       成都后花园成都后
+                    </view>
+                    <view class="greenlis flexli_center">
+                      报名结束
+                    </view>
+                    <view class="greenlis flexli_center">
+                      交资料中
+                    </view>
+                </view>
+                <!--  -->
+                <view class="show_smlis flexout flex_wrap">
+                    <view class="show_smleft show_message_hui">
+                      楼盘地址
+                    </view>
+                    <view class="show_smright show_message_black">
+                      成都后花园成都后成都后花园成
+                    </view>
+                </view>
+                <!--  -->
+                <view class="show_smlis flexout flex_wrap">
+                    <view class="show_smleft show_message_hui">
+                      别名
+                    </view>
+                    <view class="show_smright show_message_hui">
+                      红星城市广场
+                    </view>
+                </view>
+                <!--  -->
+                <view class="show_smlis flexout flex_wrap">
+                    <view class="show_smleft show_message_hui">
+                      住宅
+                    </view>
+                    <view class="show_smright show_message_red">
+                      ￥12500
+                    </view>
+                </view>
+                <!--  -->
+            </view>
+            <view class="show_message_right flexout flex_end">
+                <image class="show_ewcode" src="https://www.71big.com/heqing/zhaojingwang/common/images/banner1.jpg" ></image>
+            </view>
+        </view>
+    </view>
+    <!-- showmessage end -->
+    <!-- lookmore -->
+    <navigator class="w100" url="/pages/lookDetails/lookDetails">
+        <view class="mainout">
+            <view class="big_btn">
+                查看详情
+            </view>
+        </view>
+    </navigator>
+    <!-- lookmore end -->
+    <!-- 展示tab -->
+    <view class="flexout flex_between w100">
+          
+          <navigator class="navlis_two flex_center">
+              <view class="iconfont icon-shouye2 navlis_two_img"></view> 
+              <view class="navlis_two_text">
+                楼盘详情
+              </view>
+          </navigator>
+          <navigator class="navlis_two flex_center">
+              <view class="iconfont icon-house navlis_two_img"></view> 
+              <view class="navlis_two_text">
+                户型
+              </view>
+          </navigator>
+          <navigator class="navlis_two flex_center">
+              <view class="iconfont  icon-wenzhang  navlis_two_img"></view> 
+              <view class="navlis_two_text">
+                楼盘相册
+              </view>
+          </navigator>
+          <navigator class="navlis_two flex_center">
+              <view class="iconfont icon-xinxi navlis_two_img"></view> 
+              <view class="navlis_two_text">
+                价格信息
+              </view>
+          </navigator>
+          <navigator class="navlis_two flex_center">
+              <view class="iconfont icon-ditu navlis_two_img"></view> 
+              <view class="navlis_two_text">
+                周边设置
+              </view>
+          </navigator>
+    </view>
+    <!-- 展示tabend -->
+    <!-- 房源table -->
+    <view class="w100">
+        <view class="mainout housetable">  
+            <view class="flexout ">
+                <view class="housetabtd w25">
+                    房源套数
+                </view>
+                <view class="housetabtd w25">
+                    房源套数发的发的地方
+                </view>
+                <view class="housetabtd w25">
+                    房源套数
+                </view>
+                <view class="housetabtd w25">
+                    房源套数
+                </view>
+            </view>
+            <view class="flexout">
+                <view class="housetabtd w25">
+                    房源套数
+                </view>
+                <view class="housetabtd w25">
+                    房源套数
+                </view>
+                <view class="housetabtd w25">
+                    房源套数
+                </view>
+                <view class="housetabtd w25">
+                    房源套数
+                </view>
+            </view>
+        </view>
+    </view>
+    <!-- 房源table end -->
+    <!-- 销售信息 -->
+    <view class="w100">
+        <view class="mainout saleMessage">
+            <view class="saletitle">
+              销售信息
+            </view> 
+            <!-- 左右结构 -->
+            <view class="saleMessageul  flexout flex_wrap ">
+                <view class="saleMessagelis flexout"> 
+                    <view class="show_smleft show_message_hui" >
+                      楼盘地址：
+                    </view>
+                    <view class="show_smright show_message_black">
+                      成都后花园成都后成都后花园成sda
+                    </view>
+                </view>
+                <view class="saleMessagelis flexout"> 
+                    <view class="show_smleft show_message_hui" >
+                      楼盘地址：
+                    </view>
+                    <view class="show_smright show_message_black">
+                      成都后花园成都后成都后花园成sda
+                    </view>
+                </view>
+                 <view class="saleMessagelis flexout"> 
+                    <view class="show_smleft show_message_hui" >
+                      楼盘地址：
+                    </view>
+                    <view class="show_smright show_message_black">
+                      成都后花园成都后成都后花园成sda
+                    </view>
+                </view>
+                <view class="saleMessagelis flexout"> 
+                    <view class="show_smleft show_message_hui" >
+                      咨询电话：
+                    </view>
+                    <view class="show_smright show_message_black">
+                      4000351877
+                    </view>
+                </view>
+            </view>
+            <!-- 左右结构end -->
+            <view class="saletitle_sm show_message_hui">
+              预售许可证：
+            </view> 
+            <!-- 预售许可证table -->
+            <view class=" housetable">  
+                      <view class="flexout ">
+                          <view class="housetabtd w20">
+                              房源套数
+                          </view>
+                          <view class="housetabtd w20">
+                              房源套数发的发的地方
+                          </view>
+                          <view class="housetabtd w60">
+                              房源套数
+                          </view>
+                      </view>
+                      <view class="flexout">
+                          <view class="housetabtd w20">
+                              房源套数
+                          </view>
+                          <view class="housetabtd w20">
+                              房源套数
+                          </view>
+                          <view class="housetabtd w60">
+                              房源套数
+                          </view>
+                      </view>
+                  </view>
+            </view>
+            <!-- 预售许可证table -->
+            <!-- 优秀顾问 -->
+            <view class="rmlis">
+                <view class="mainout">
+                
+                  <view class="flexout rmhead flex_between">
+                      <view class="rmhead_left">
+                        优秀置业顾问推荐
+                      </view>
+                      <navigator class="rmhead_right">
+                        更多>
+                      </navigator>
+                  </view>
+                  <!-- 优秀置业顾问lis -->
+                  <view class="adviserul flexout flex_between">
+                      <!-- 1 -->
+                      <view class="adviserlis flexout">
+                          <view class="adviserlisimg">
+                            <image class="imgs" src="https://www.71big.com/heqing/zhaojingwang/common/images/banner1.jpg"></image>
+                          </view>
+                          <view class="adviserlis_right">
+                              <view class="adviserlis_right_black textHidden">
+                                  贾佳
+                              </view>
+                              <view class="adviserlis_right_blue textHidden">
+                                保利天禧
+                              </view>
+                          </view>
+                      </view>
+                      <!-- 2 -->
+                      <view class="adviserlis flexout">
+                          <view class="adviserlisimg">
+                            <image class="imgs" src="https://www.71big.com/heqing/zhaojingwang/common/images/banner1.jpg"></image>
+                          </view>
+                          <view class="adviserlis_right">
+                              <view class="adviserlis_right_black textHidden">
+                                  贾佳
+                              </view>
+                              <view class="adviserlis_right_blue textHidden">
+                                保利天禧
+                              </view>
+                          </view>
+                      </view>
+                      <!-- 2 -->
+                  </view>
+                </view>
+              </view>
+            <!-- 顾问end -->
+    </view>
+    <!-- 销售信息end -->
+</view>
+<message_bottom follow="true"/>

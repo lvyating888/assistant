@@ -1,0 +1,241 @@
+@import "../../app.wxss";
+
+.house_screenul{
+  margin-top:40rpx;
+  height:40rpx;
+  width: 100%;
+  background-color: #fff;
+}
+.house_screenlis{
+  height:100%;
+}
+.house_screen_textone{
+  font-size:28rpx;
+  color:#666;
+}
+.house_screen_texttwo{
+  font-size:30rpx;
+  color:#c5c5c5;
+  padding-left:12rpx;
+  padding-right:12rpx;
+}
+.house_screen_textthree{
+  font-size:36rpx;
+  color:#333;
+  margin:0 42rpx;
+}
+.house_screenlis_act .house_screen_textone,.house_screenlis_act .house_screen_texttwo,.house_screenlis_act .house_screen_textthree{
+    color: #3268d2;
+}
+/* --筛选类型-- */
+.bigbtnout{
+  padding-top:28rpx;
+  padding-bottom:28rpx;
+}
+.bigbtn{
+  width:45%;
+  font-size:32rpx;
+  line-height:76rpx;
+  text-align: center;
+}
+.bigbtnReset{
+   background-color:#f7f7f7;
+   border:2rpx solid #f7f7f7;
+   border-radius:16rpx; 
+   color:#333;
+}
+.bigbtnSure{
+   background-color:#ffffff;
+   border:2rpx solid #3371d8;
+   border-radius:16rpx; 
+   color:#3371d8;
+}
+.house_tabulout{
+  position:relative;
+}
+.typelis_outinner{
+  position: absolute;
+  top:0rpx;
+  left:0;
+  width: 100%;
+  height:100%;
+  background: rgba(0, 0, 0, 0.3);
+  z-index:-1;
+  display: none;
+}
+.typelis_out{
+  position: absolute;
+  top:80rpx;
+  left:0;
+  background-color:#ffffff;
+  z-index:111;
+  width: 100%;
+}
+.typelis{
+  padding-top:36rpx;
+  padding-bottom:36rpx;
+  border-bottom:2rpx solid #e7e7e7;
+}
+.bigtitle{
+  font-size:34rpx;
+  color:#000;
+}
+.smtypelisout{
+   padding-top:26rpx;
+}
+.smtypelis{
+  padding-left:30rpx;
+  padding-right:30rpx;
+  line-height:52rpx;
+  background-color: #f7f7f7;
+  color:#333;
+  border:2rpx solid #f7f7f7;
+  font-size:30rpx;
+  margin-right:28rpx;
+  border-radius:16rpx;
+}
+.smtypelis_act{
+  background-color: #ffffff;
+  border:2rpx solid #3371d8;
+  color:#3371d8;
+}
+/* --价格筛选样式-- */
+.price_bigtitle{
+  padding-top:30rpx;
+  padding-bottom:30rpx;
+  font-size:30rpx;
+  border-bottom:2rpx solid #cdcdcd;
+  color:#333333;
+}
+.price_bigtitle_act{
+  color:#3371d8;
+}
+.bigbtnout_left{
+  width:70%;
+}
+.bigbtnout_right{
+  width:20%;
+}
+.label_input{
+  font-size:28rpx;
+  white-space: nowrap;
+  padding-right:22rpx;
+}
+.price_input,.bigbtnout_right_btn{
+  padding-left:2%;
+  padding-right:2%;
+  background-color:#f7f7f7;
+  line-height:48rpx;
+  color: #666666;
+  font-size:28rpx;
+  border-radius:16rpx;
+  text-align: center;
+}
+.interval{
+  padding-right:22rpx;
+  padding-left:22rpx;
+  color: #cbcbcb;
+  font-size:28rpx;
+}
+.bigbtnout_right_btn{
+  height:1.5rem;
+  line-height:1.5rem;
+  font-family:UICTFontTextStyleBody;
+}
+/* 全部区域 */
+.typelis_three{
+  padding-top:18rpx;
+}
+.typelis_three_lis{
+  padding-right:40rpx;
+  max-height:490rpx;
+}
+
+.typelis_three .typelis_three_lis:last-child{
+  padding-right:0;
+}
+.typelis_three_one{
+  width:192rpx;
+}
+.typelis_three_two{
+  width:46%;
+}
+.typelis_citylis{
+  line-height:46rpx;
+  padding-top:24rpx;
+  padding-bottom:24rpx;
+  font-size:32rpx;
+  color: #000000;
+  border-bottom:2rpx solid #e7e7e7;
+}
+
+.typelis_citylis .typelis_text{
+  line-height:46rpx;
+  font-size:32rpx;
+  color: #000000;
+}
+.typelis_citylis.typelis_citylis_act,.typelis_citylis.typelis_citylis_act .typelis_text {
+  color:#3371d8;
+}
+.typelis_three_one .typelis_citylis{
+  padding-left:30rpx;
+  padding-right:30rpx;
+  background-color: #f7f7f7
+}
+.typelis_three_one .typelis_citylis.typelis_citylis_act{
+  background-color: #ffffff;
+  color: #000000;
+}
+.typelis_checkbox{
+  padding-right:26rpx;
+}
+/* --切换价格-- */
+.commodity_screen {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #000;
+  opacity: 0.5;
+  overflow: hidden;
+  z-index: 9;
+  color: #fff;
+}
+
+.commodity_attr_box {
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  background: #fff;
+  padding-top: 20rpx;
+  height: 300px;
+}
+.commodity_attr_box{
+  text-align: center;
+  padding-top: 100rpx;
+}
+.house_screenulout{
+  position: fixed;
+  top:128rpx;
+  width: 100%;
+  height: 100%;
+  z-index: 101;
+}
+.house_screenulout .house_screenul{
+  margin-top:0;
+  padding-top:40rpx;
+  width: 100%;
+  position:absolute;
+  top:0;
+  z-index:111;
+}
+.house_screenulout .house_screenul .mainout,.house_screenulout .house_screenlis {
+  background-color: #fff;
+}
+.house_screenulout .typelis_outinner{
+  display: block;
+}

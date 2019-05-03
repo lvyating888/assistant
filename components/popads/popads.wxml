@@ -1,0 +1,10 @@
+<view class="popadsout" hidden="{{!show}}">
+    <view class='popadsoutbg' bindtap="_hidepop"></view>
+    <view class='popadsads'>
+        <navigator >
+          <image  class="popadsimgs" src="https://www.71big.com/heqing/zhaojingwang/common/images/banner1.jpg"></image>
+        </navigator>
+        <view class="iconfont icon-guanbi close_btn" bindtap="_hidepop"></view>
+        
+    </view>
+</view>

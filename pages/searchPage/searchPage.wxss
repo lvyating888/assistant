@@ -1,0 +1,54 @@
+@import "/utils/common.wxss";
+@import "/pages/buildHouse/buildHouse.wxss";
+.bodycolor{
+  background-color: #f8f8f8;
+}
+.openlis{
+  background-color: #fff;
+}
+/*-- 搜索推荐的样式 --*/
+.searchout{
+  padding-left:42rpx;
+  padding-right:42rpx;
+  background-color: #fff;
+  margin-bottom:30rpx;
+}
+.searchtitle{
+  height:60rpx;
+  padding:30rpx 0;
+}
+.searchtitle .viewleft{
+  font-size: 32rpx;
+  color:#949494;
+}
+.searchtitle .viewRight{
+  font-size: 54rpx;
+  color:#5d5d5d;
+}
+.searchlisone{
+  line-height:78rpx;
+  padding-left:36rpx;
+  padding-right:36rpx;
+  background-color: #f9f9f9;
+  border-radius:20rpx;
+  font-size: 36rpx;
+  color:#333333;
+  margin:14rpx 24rpx 14rpx 0;
+  border-color: #f5f5f5;
+  border-width:2rpx;
+}
+.searchlistwo{
+  line-height:78rpx;
+  padding-left:36rpx;
+  padding-right:36rpx;
+  background-color: #f9f9f9;
+  border-color: #f5f5f5;
+  border-width:2rpx;
+  border-radius:20rpx;
+  font-size: 36rpx;
+  color:#666666;
+  margin-right:24rpx;
+}
+.searchlisword{
+  padding-bottom:40rpx;
+}

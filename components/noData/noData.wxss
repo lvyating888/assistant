@@ -1,0 +1,29 @@
+@import "../../app.wxss";
+.noData{
+  height:100%;
+  width:100%;
+  position: absolute;
+  top:0;
+  left:0;
+  z-index:0;
+  background: #fff;
+}
+.noDataMiddle{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
+.noData_icon{
+  font-size:200rpx;
+  color:#3772cc;
+  text-align: center;
+}
+.noData_icon_text{
+  font-size:38rpx;
+  color:#666;
+  line-height:56rpx;
+  text-align: center;
+  padding-top:10rpx;
+  padding-bottom:10rpx;
+}

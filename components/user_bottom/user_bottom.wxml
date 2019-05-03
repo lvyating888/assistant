@@ -1,0 +1,21 @@
+
+<view class="message_bottom w100 flexout "  >
+    <view class="mainout flexout w100 flex_center">
+        <view class="w20 flexli_center">
+            <view class="icon iconfont icon-start w20_one"></view>
+            <view class="w20_two">
+              关注
+            </view>
+        </view>
+        <view class="w40">
+            <view class="w40_btn_one w40_btn">
+                拨打电话
+            </view>
+        </view>
+        <view class="w40">
+            <view class="w40_btn_two w40_btn">
+                立即咨询
+            </view>
+        </view>
+    </view>
+</view>

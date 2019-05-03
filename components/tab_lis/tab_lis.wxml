@@ -1,0 +1,15 @@
+<view class="mainout scroll_out">
+    <view class="scroll_box" >
+      <scroll-view class="scroll-view_x" scroll-x style="width: auto;overflow:hidden;">
+        <view 
+              bindtap="change" wx:for="{{tabArry}}"
+              wx:key="{{key}}"
+              wx:for-index="indextwo"
+              data-number='{{indextwo}}' 
+              class="{{tabNumber == 'tablis'+indextwo ? 'item_list item_list_act' : 'item_list '}}"
+              >
+            {{item.title}}{{item.imgs.length}}
+        </view>
+      </scroll-view>
+    </view>
+</view>

@@ -1,0 +1,16 @@
+<view class="search  flexout flex_center ">
+  <view class="search_inner flex_grow2 flexout">
+          <view class="searchinputout flexout flex_grow2 flexli_center">
+            <view class="iconfont icon-sousuo1 flexli_center"></view>
+            <input class=" flex_grow2 flexli_center searchinput" placeholder='乐事广场' bindinput='getSeachval' value="{{propA}}"> </input>
+            <view class="iconfont icon-guanbi flexli_center" wx:if="{{showclose}}" bindtap='clearInput'></view>
+            <!--  -->
+          </view>
+          <view class="searchleft_li" bindtap='getSeachData'>
+            <view class="searchtext_lis" >
+              确定
+            </view>
+          </view>
+  </view>
+
+</view>

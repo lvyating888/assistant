@@ -1,0 +1,15 @@
+<view class="search  flexout flex_center ">
+  <view class="search_inner flex_grow2 flexout">
+          <view class="searchinputout flexout flex_grow2 flexli_center">
+            <view class="iconfont icon-sousuo1 flexli_center"></view>
+            <input class=" flex_grow2 flexli_center searchinput" placeholder='搜索阿大声道' bindtap='getSeachval' > </input>
+            <!--  -->
+          </view>
+          <view class="searchleft_li" bindtap='getSeachval'>
+            <view class="searchtext_lis" >
+              确定
+            </view>
+          </view>
+  </view>
+
+</view>

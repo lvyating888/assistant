@@ -1,0 +1,17 @@
+
+<view class="message_bottom w100 flexout "  >
+    <view class="mainout flexout w100 flex_between">
+        <view class="smbtn btn_red" >
+            删除
+        </view>
+        <view class="smbtn btn_blue">
+            添加
+        </view>
+        <view class="bigbtn btn_hui" wx:if="{{datalist.length !==2 || datalist.length>2 }}">
+            开始PK
+        </view>
+        <navigator class="bigbtn btn_red" wx:if="{{datalist.length == 2 }}" url="{{url}}">
+            开始PK
+        </navigator>
+    </view>
+</view>

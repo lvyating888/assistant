@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "tabLis":"/components/tab_lis/tab_lis"
+  },
+  "navigationBarTitleText": "楼盘相册"
+}

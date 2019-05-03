@@ -1,0 +1,59 @@
+<!--pages/pkList/pkList.wxml-->
+<view class="container_three">
+    <!-- 最新开盘广告 -->
+    <view class="openlis" wx:for="{{items}}" wx:key="{{items}}">
+        <view class="mainout" >
+            <view class="flexout flex_between" >
+                  <view>
+                    <checkbox-group bindchange="checkboxChange" data-index="{{index}}"
+                        data-value="{{item.name}}"
+                        class="checkbox_out">
+                      <view >
+                        <label class="checkbox" >
+                          <checkbox class="checkbox-hidden" value="{{items.name}}" checked="{{item.checked}}"/>
+                          <icon class="checkbox-nogroup-circle-icon" type="success" size="18" wx:if="{{item.checked}}"></icon>
+                          <icon class="checkbox-nogroup-circle-icon" type="circle" size="18" wx:if="{{!item.checked}}"></icon>
+                        </label>
+                      </view>
+                  </checkbox-group>
+                </view>
+                <!--左侧图片-->
+                <view class="openlisimg">
+                  <image  class="imgs" src="https://www.71big.com/heqing/zhaojingwang/common/images/banner1.jpg"></image>
+                </view>
+                <!--右侧文字-->
+                <view class="openlisright">
+                    <view class=" flexout flex_between">
+                          <view class="openlisright_one textHidden">
+                              {{item.title}}
+                          </view>
+                    </view>
+                    <!-- 报名 -->
+                    <view class=" flexout flex_between openlisright2">
+                          <view class="openlisright_lione flexout">
+                              <view class="greenlis">
+                                  报名结束
+                              </view>
+                          </view>
+                          <view class="openlisright_litwo openlisright_two">
+                              待定
+                          </view>
+                    </view>
+                    <!-- 摇号时间 -->
+                    <view class=" flexout flex_between openlisright3">
+                          <view class=" flexout">
+                              <view class="openlisright3_text">
+                              {{item.cdate}}
+                              </view>
+                          </view>
+                          <view class="openlisright_litwo greenlis_text">
+                              {{item.area}}
+                          </view>
+                    </view>
+                </view>
+            </view>
+      </view>
+    </view>
+    <!-- 最新开盘广告end -->
+</view>
+<pk_bottom datalist="{{arrli}}" bind:checkboxChange="checkboxChange" url="/pages/pkList/pkDetails/pkDetails"/>

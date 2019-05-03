@@ -1,0 +1,2 @@
+/* pages/checkIn/checkRegister/checkRegister.wxss */
+@import "/pages/checkIn/css/checkReComm.wxss";

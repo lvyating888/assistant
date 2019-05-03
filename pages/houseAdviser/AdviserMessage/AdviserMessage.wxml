@@ -1,0 +1,139 @@
+<!--pages/houseAdviser/AdviserMessage/AdviserMessage.wxml-->
+<view class="AdviserMessage_out container_two">
+    <!-- top start -->
+    <view class="user_lis user_topout">
+        <view class="user_top mainout flexout">
+            <image src="https://www.71big.com/heqing/zhaojingwang/common/images/banner1.jpg" class="user_img"></image>
+            <view class="user_right">
+                <view class="user_img_name">
+                    陈丽
+                </view>
+                <view class="user_post flexout flex_end">
+                    <view class="user_post_img">
+                        <image src="/utils/static/imgs/gold_medal.png"></image>
+                    </view>
+                    <view class="user_post_text">
+                        金牌顾问
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view class="mainout user_top_note">
+            个人简介：东湖花都花都花读书的互动互速度和花都花都花都花都的话
+        </view>
+    </view>
+    <!-- top end -->
+    <!-- number start -->
+    <view class="user_lis user_topout">
+        <view class="mainout">
+            <!-- number_top -->
+            <view class="number_top flexout">
+                <!--  -->
+                <view class="number_top_lis">
+                      <view class="number_top_lis_textone">
+                          2472
+                      </view>
+                       <view class="number_top_lis_texttwo">
+                          积分
+                      </view>
+                </view>
+                <!--  -->
+                <view class="number_top_lis number_top_lis_middle">
+                      <view class="number_top_lis_textone">
+                          2472
+                      </view>
+                       <view class="number_top_lis_texttwo">
+                          咨询量
+                      </view>
+                </view>
+                <!--  -->
+                <view class="number_top_lis">
+                      <view class="number_top_lis_textone">
+                          2472
+                      </view>
+                       <view class="number_top_lis_texttwo">
+                          浏览量
+                      </view>
+                </view>
+                <!--  -->
+            </view>
+            <!-- number_top end -->
+            <view class="number_bottom flexout flex_center flex_between">
+                <view class="number_bottom_lis flexout flex_center">
+                      <view class="icons_left flexout flex_center">
+                          <view class="icons_left_icon icon iconfont icon-zan"></view>
+                          <view class="icons_left_icon_text">2779</view>
+                      </view>
+                      <view class="icons_left_text">
+                          赞美也是一种认可
+                      </view>
+                </view>
+                <view class="number_bottom_lis flexout flex_center">
+                      <view class="icons_left flexout flex_center">
+                          <view class="icons_left_icon icon iconfont icon-fenxiang3"></view>
+                      </view>
+                      <view class="icons_left_text">
+                           多点分享、多点爱
+                      </view>
+                </view>
+            </view>
+            <!-- number_bottom end -->
+        </view>
+        <!--  -->
+    </view>
+    <!-- number end -->
+    <!-- 入住的全部楼盘 start -->
+    <view class="user_lis user_topout">
+        <view class="checkedin_floor mainout">
+              <view class="checkedin_floor_title">
+                 入住的全部楼盘   
+              </view>
+              <view class="flexout flex_wrap">
+                    <!-- 循环的入住楼盘 -->
+                    <view class="floor_lis">
+                        <image src="https://www.71big.com/heqing/zhaojingwang/common/images/banner1.jpg" class="floor_lis_img"></image>
+                        <view class="floor_company">
+                            蓝润城  
+                        </view>
+                        <view class="floor_company_out">
+                            <view class="greenlis">
+                                已摇号
+                            </view>
+                        </view>
+                    </view>
+                    <!--  -->
+                    <!-- 循环的入住楼盘 -->
+                    <view class="floor_lis">
+                        <image src="https://www.71big.com/heqing/zhaojingwang/common/images/banner1.jpg" class="floor_lis_img"></image>
+                        <view class="floor_company">
+                            蓝润城  
+                        </view>
+                        <view class="floor_company_out">
+                            <view class="greenlis">
+                                已摇号
+                            </view>
+                        </view>
+                    </view>
+                    <!--  -->
+                    <!-- 循环的入住楼盘 -->
+                    <view class="floor_lis">
+                        <image src="https://www.71big.com/heqing/zhaojingwang/common/images/banner1.jpg" class="floor_lis_img"></image>
+                        <view class="floor_company">
+                            蓝润城  
+                        </view>
+                        <view class="floor_company_out">
+                            <view class="greenlis">
+                                已摇号
+                            </view>
+                        </view>
+                    </view>
+                    <!--  -->
+                    
+              </view>
+              
+        </view> 
+    </view>
+    <!-- 入住的全部楼盘 end -->
+    
+    <userBottom/>
+</view>

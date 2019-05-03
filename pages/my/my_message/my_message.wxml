@@ -1,0 +1,44 @@
+<!--pages/my/my_message/my_message.wxml-->
+<view class="my_message">
+    <noData words="小主人，未添加任何信息请完善个人信息"/>
+    <view class="my_message_middle">
+        <view class="mainout">
+            <view class="my_message_lis mainout flexout flex_start">
+                <view>
+                    <view class="font_text font_text_hui">
+                        姓名
+                    </view>
+                    <view class="font_text font_text_hui">
+                        省份证号
+                    </view>
+                    <view class="font_text font_text_hui">
+                        姓名
+                    </view>
+                </view>
+                <view class="my_message_left">
+                    <view class="font_text font_text_black">
+                        aaaa 
+                    </view>
+                    <view class="font_text font_text_black">
+                        15444444
+                    </view>
+                    <view class="font_text font_text_black">
+                        15365656565
+                    </view>
+                </view>
+                <view >
+                    <view class="my_message_btn" bindtap='delBtn'>
+                      解除信息
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="my_message_botbtn flexout ">
+        <navigator class="mainout flexli_center w100" url="/pages/my/addMessage/addMessage">
+            <view class="msg_btn">
+                添加信息
+            </view>
+        </navigator>
+    </view>
+</view>

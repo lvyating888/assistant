@@ -1,0 +1,311 @@
+<!--pages/pkList/pkDetails/pkDetails.wxml-->
+<view class="pk_details page_body">
+    <!-- 固定的头部 -->
+      <view class="pkDetails_title">
+        <view class="mainout page_white  flexout flex_between pkDetails_floor">
+              <!--  -->
+              <view class="pkDetails_lis">
+                  <view class="pkDetails_lis_top">
+                      <view class="pkDetails_lis_top_title flexout flex_between">
+                          <view class="icontext onetext_hidden">
+                            明信城
+                          </view>
+                          <view class="icon iconfont icon-more2 icons"></view>
+                      </view>
+                  </view>
+              </view>
+              <!--  -->
+              <view class="pkDetails_lis">
+                  <view class="pkDetails_lis_top">
+                      <view class="pkDetails_lis_top_title flexout flex_between">
+                          <view class="icontext onetext_hidden">
+                            明信城aaaaaaaadsdad
+                          </view>
+                          <view class="icon iconfont icon-more2 icons"></view>
+                      </view>
+                  </view>
+              </view>
+        </view>
+    </view>
+    <!-- 固定的头部end -->
+    <view class="w100">
+        <!-- 图片 -->
+        <view class="mainout page_white pkDetails_floor_lis">
+            <view class="flexout flex_between">
+                <!-- 循环的位置 -->
+                <view class="pkDetails_lis">
+                    <view class="pkDetails_lis_img_out">
+                        <image class="pkDetails_lis_img" src="https://www.71big.com/heqing/zhaojingwang/common/images/banner1.jpg" ></image>
+                    </view>
+                </view>
+                <!--  -->
+                <view class="pkDetails_lis">
+                    <view class="pkDetails_lis_img_out">
+                        <image class="pkDetails_lis_img" src="https://www.71big.com/heqing/zhaojingwang/common/images/banner1.jpg" ></image>
+                    </view>
+                </view>
+            </view> 
+        </view>
+        <!-- 图片end -->
+        <!-- 基本信息 start -->
+        <view class="mainout page_white pkDetails_floor_lis">
+          <view class="pk_message">
+              <view class="flexout flex_between flex_center">
+                  <view>
+                    <image src="/utils/static/imgs/pk_list.png" class="pk_message_imgs"></image>
+                  </view>
+                  <view class="pk_message_tit">
+                      基本信息
+                  </view>
+                  <image src="/utils/static/imgs/pk_list.png" class="pk_message_imgs pk_message_imgs_right"></image>
+              </view>
+              <!--  -->
+              <view class="flexout flex-start flex_bot_lis">
+                  <view class="pk_one pk_one_left pk_font pk_black">
+                      优品道锦绣  
+                  </view>
+                  <view class="pk_two pk_one_center pk_font pk_hui">
+                      楼盘名称  
+                  </view>
+                  <view class="pk_one pk_font pk_black">
+                      楼盘名称楼盘名称楼盘名称楼盘名称
+                  </view>
+              </view>
+              <!--  -->
+              <view class="flexout flex-start flex_bot_lis">
+                  <view class="pk_one pk_one_left pk_font pk_black">
+                      即将摇号  
+                  </view>
+                  <view class="pk_two pk_one_center pk_font pk_hui">
+                      楼盘状态  
+                  </view>
+                  <view class="pk_one pk_font pk_black">
+                      在售
+                  </view>
+              </view>
+              <!--  -->
+              <view class="flexout flex-start flex_bot_lis">
+                  <view class="pk_one pk_one_left pk_font pk_black">
+                      待定  
+                  </view>
+                  <view class="pk_two pk_one_center pk_font pk_hui">
+                      楼盘价格  
+                  </view>
+                  <view class="pk_one pk_font pk_black">
+                      待定
+                  </view>
+              </view>
+              <!--  -->
+              <view class="flexout flex-start flex_bot_lis">
+                  <view class="pk_one pk_one_left pk_font pk_black">
+                      480802.5元  
+                  </view>
+                  <view class="pk_two pk_one_center pk_font pk_hui">
+                      验证金额  
+                  </view>
+                  <view class="pk_one pk_font pk_black">
+                      57万
+                  </view>
+              </view>
+              <!--  -->
+              <view class="flexout flex-start flex_bot_lis">
+                  <view class="pk_one pk_one_left pk_font pk_black">
+                      24-27
+                  </view>
+                  <view class="pk_two pk_one_center pk_font pk_hui">
+                      层高  
+                  </view>
+                  <view class="pk_one pk_font pk_black">
+                      暂无
+                  </view>
+              </view>
+              <!--  -->
+              <view class="flexout flex-start flex_bot_lis">
+                  <view class="pk_one pk_one_left pk_font pk_black">
+                      1147(住宅1061个）
+                  </view>
+                  <view class="pk_two pk_one_center pk_font pk_hui">
+                      车位数  
+                  </view>
+                  <view class="pk_one pk_font pk_black">
+                      672个
+                  </view>
+              </view>
+              <!--  -->
+              <view class="flexout flex-start flex_bot_lis">
+                  <view class="pk_one pk_one_left pk_font pk_black">
+                      成都什么什么开发商
+                  </view>
+                  <view class="pk_two pk_one_center pk_font pk_hui">
+                      开发商  
+                  </view>
+                  <view class="pk_one pk_font pk_black">
+                      成都什么什么开发商
+                  </view>
+              </view>
+              <!--  -->
+              <view class="flexout flex-start flex_bot_lis">
+                  <view class="pk_one pk_one_left pk_font pk_black">
+                      毛坯
+                  </view>
+                  <view class="pk_two pk_one_center pk_font pk_hui">
+                      装修情况  
+                  </view>
+                  <view class="pk_one pk_font pk_black">
+                      毛坯
+                  </view>
+              </view>
+              <!--  -->
+              <view class="flexout flex-start flex_bot_lis">
+                  <view class="pk_one pk_one_left pk_font pk_black">
+                      天府新区
+                  </view>
+                  <view class="pk_two pk_one_center pk_font pk_hui">
+                      所在区域  
+                  </view>
+                  <view class="pk_one pk_font pk_black">
+                      高新区
+                  </view>
+              </view>
+              <!--  -->
+              <view class="flexout flex-start flex_bot_lis">
+                  <view class="pk_one pk_one_left pk_font pk_black">
+                      2.2
+                  </view>
+                  <view class="pk_two pk_one_center pk_font pk_hui">
+                      容积率  
+                  </view>
+                  <view class="pk_one pk_font pk_black">
+                      3.00
+                  </view>
+              </view>
+              <!--  -->
+              <view class="flexout flex-start flex_bot_lis">
+                  <view class="pk_one pk_one_left pk_font pk_black">
+                      30%
+                  </view>
+                  <view class="pk_two pk_one_center pk_font pk_hui">
+                      绿化率  
+                  </view>
+                  <view class="pk_one pk_font pk_black">
+                      25%
+                  </view>
+              </view>
+              <!--  -->
+              <view class="flexout flex-start flex_bot_lis">
+                  <view class="pk_one pk_one_left pk_font pk_black">
+                      2020-10-30
+                  </view>
+                  <view class="pk_two pk_one_center pk_font pk_hui">
+                      交房时间  
+                  </view>
+                  <view class="pk_one pk_font pk_black">
+                      2019-12-31
+                  </view>
+              </view>
+              <!--  -->
+          </view>
+          <!---->
+        </view>
+        <!--  基本信息end  -->
+         <!-- 物业与交通 start -->
+        <view class="mainout page_white pkDetails_floor_lis">
+          
+          <view class="pk_message">
+              <view class="flexout flex_between flex_center">
+                  <view>
+                    <image src="/utils/static/imgs/pk_list.png" class="pk_message_imgs"></image>
+                  </view>
+                  <view class="pk_message_tit">
+                      物业与交通
+                  </view>
+                  <image src="/utils/static/imgs/pk_list.png" class="pk_message_imgs pk_message_imgs_right"></image>
+              </view>
+              <!--  -->
+              <view class="flexout flex-start flex_bot_lis">
+                  <view class="pk_one pk_one_left pk_font pk_black">
+                      普通住宅  
+                  </view>
+                  <view class="pk_two pk_one_center pk_font pk_hui">
+                      住宅类型  
+                  </view>
+                  <view class="pk_one pk_font pk_black">
+                      住宅
+                  </view>
+              </view>
+              <!--  -->
+              <view class="flexout flex-start flex_bot_lis">
+                  <view class="pk_one pk_one_left pk_font pk_black">
+                      暂无  
+                  </view>
+                  <view class="pk_two pk_one_center pk_font pk_hui">
+                      物业费  
+                  </view>
+                  <view class="pk_one pk_font pk_black">
+                      5.5
+                  </view>
+              </view>
+              <!--  -->
+              <view class="flexout flex-start flex_bot_lis">
+                  <view class="pk_one pk_one_left pk_font pk_black">
+                      某某物业公司  
+                  </view>
+                  <view class="pk_two pk_one_center pk_font pk_hui">
+                      物业公司  
+                  </view>
+                  <view class="pk_one pk_font pk_black">
+                      某某物业公司
+                  </view>
+              </view>
+              <!--  -->
+              <view class="flexout flex-start flex_bot_lis">
+                  <view class="pk_one pk_one_left pk_font pk_black">
+                      70年
+                  </view>
+                  <view class="pk_two pk_one_center pk_font pk_hui">
+                      产权年限  
+                  </view>
+                  <view class="pk_one pk_font pk_black">
+                      70年
+                  </view>
+              </view>
+              <!--  -->
+              <view class="flexout flex-start flex_bot_lis">
+                  <view class="pk_one pk_one_left pk_font pk_black">
+                      在建
+                  </view>
+                  <view class="pk_two pk_one_center pk_font pk_hui">
+                      地铁交通  
+                  </view>
+                  <view class="pk_one pk_font pk_black">
+                      暂无
+                  </view>
+              </view>
+              <!--  -->
+              <view class="flexout flex-between flex_bot_lis share_parent">
+                    <view class="pk_one pk_one_left pk_font pk_black">
+                      查看更多>>
+                  </view>
+                  <view class="pk_two pk_one_center pk_font pk_hui"></view>
+                  <view class="pk_one pk_one_left pk_font pk_blue">
+                      查看更多>>
+                  </view>
+                  <view class="pk_hui share_btn_out">
+                      <view class="share_btn">
+                          <view class="icon iconfont icon-fenxiang3 share_btn_text"></view>
+                      </view>  
+                       <view class="share_btn_note">
+                            分享我的每一步
+                       </view>
+                  </view>
+              </view>
+              
+              <!--  -->
+          </view>
+          <!---->
+        </view>
+        <!--  基本信息end  -->
+        
+    </view>
+</view>
+

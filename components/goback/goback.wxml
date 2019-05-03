@@ -1,0 +1,3 @@
+<view class="goback flexout flex_center" bindtap="goTop" wx:if="{{floorstatus}}">
+      <view class="gobackimg"></view>
+</view>

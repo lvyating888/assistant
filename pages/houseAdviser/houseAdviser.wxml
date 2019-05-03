@@ -1,0 +1,242 @@
+<!--pages/houseAdviser/houseAdviser.wxml-->
+<view class="adviser_out">
+    <searchlis></searchlis>
+      <view>
+          <view class="adviser_top">
+            <view class="mainout">
+               <view class="adviser_top_title">
+                  活跃度TOP3
+               </view>
+            </view>
+            <view class="icon_user_out">
+                <view class="top_lis top_lis_two">
+                    <image src="https://www.71big.com/heqing/zhaojingwang/common/images/banner1.jpg" class="top_lis_user"></image>
+                </view>
+            </view>
+            
+            <view class="top_lis top_lis_one">
+                <image src="https://www.71big.com/heqing/zhaojingwang/common/images/banner1.jpg" class="top_lis_user"></image>
+            </view>
+            <view class="top_lis top_lis_three">
+                <image src="https://www.71big.com/heqing/zhaojingwang/common/images/banner1.jpg" class="top_lis_user"></image>
+            </view>
+            <!--  -->
+            <view class="top_lis_text top_lis_text_two">
+                <view class="top_lis_text_title">
+                  刘恒金
+                </view>
+                <view class="top_lis_text_smtitle">
+                    活跃度：2343
+                </view>
+            </view>
+            <view class="top_lis_text top_lis_text_one">
+                <view class="top_lis_text_title">
+                  黄冰冰
+                </view>
+                <view class="top_lis_text_smtitle">
+                    活跃度：2343
+                </view>
+            </view>
+            <view class="top_lis_text top_lis_text_three">
+                <view class="top_lis_text_title">
+                    邓宁
+                </view>
+                <view class="top_lis_text_smtitle">
+                    活跃度：2343
+                </view>
+            </view>
+            <!--  -->
+            <image src="/utils/static/imgs/adviser_bg.png" class="adviser_top_bg"></image>
+          </view>
+      </view>
+      <!-- top3 end -->
+      <view class="mainout">
+          <view class="ad_middle_out flexout">
+             <view class="ad_middle_title flexli_center">
+                活跃度排行
+             </view> 
+          </view>
+      </view>
+      <!--  -->
+      <view class="ad_lispeople">
+          <view class="mainout">
+              <!-- ad_lispeople_top  -->
+              <view class="ad_lispeople_top flexout  flex_center ">
+                  <view class="ad_lispeople_number">
+                      4
+                  </view>
+                  <view class="user_img ">
+                       <image src="https://www.71big.com/heqing/zhaojingwang/common/images/banner1.jpg" class="top_lis_user"></image>
+                  </view>
+                  <navigator class="user_img_right "  url="/pages/houseAdviser/AdviserMessage/AdviserMessage">
+                      <!--  -->
+                      <view class="user_img_rone flexout flex_between">
+                          <view class="flexout flex_center">
+                              <view class="user_img_rname">
+                                  李李
+                              </view>
+                              <view class="user_img_duties">
+                                  置业顾问
+                              </view>
+                          </view>
+                          <view class="user_img_act">
+                              活跃度：1868
+                          </view>
+                      </view>
+                      <!--  -->
+                      <view class="user_img_duties user_img_duties_two onetext_hidden">
+                          万科是上帝的黑色的哈死的好滴
+                      </view>
+                      <!--  -->
+                  </navigator>
+              </view>
+              <!-- ad_lispeople_top end -->
+              <!-- ad_lispeople_top  -->
+              <view class="ad_lispeople_bot">
+                  <view class="ad_lispeople_bot_ul flexout flex_center">
+                        <view class="ad_lispeople_bot_lis flexout flex_end">
+                            <view class="icon iconfont icon-dianhua iconlis"></view>
+                            <view class="iconlis_right">
+                                拨号
+                            </view>
+                        </view>
+                        <view class="ad_lispeople_bot_lis flexout flex_end">
+                            <view class="icon iconfont icon-xiaoxi iconlis"></view>
+                            <view class="iconlis_right">
+                                咨询
+                            </view>
+                        </view>
+                        <view class="ad_lispeople_bot_lis flexout flex_end">
+                            <view class="icon iconfont icon-zan iconlis"></view>
+                            <view class="iconlis_right">
+                                752
+                            </view>
+                        </view>
+                  </view>
+              </view>
+              <!-- ad_lispeople_bot end -->
+          </view>
+      </view>
+      <!--  -->
+      <view class="ad_lispeople">
+          <view class="mainout">
+              <!-- ad_lispeople_top  -->
+              <view class="ad_lispeople_top flexout flex_center">
+                  <view class="ad_lispeople_number">
+                      4
+                  </view>
+                  <view class="user_img">
+                       <image src="https://www.71big.com/heqing/zhaojingwang/common/images/banner1.jpg" class="top_lis_user"></image>
+                  </view>
+                  <view class="user_img_right ">
+                      <!--  -->
+                      <view class="user_img_rone flexout flex_between">
+                          <view class="flexout flex_center">
+                              <view class="user_img_rname">
+                                  李李
+                              </view>
+                              <view class="user_img_duties">
+                                  置业顾问
+                              </view>
+                          </view>
+                          <view class="user_img_act">
+                              活跃度：1868
+                          </view>
+                      </view>
+                      <!--  -->
+                      <view class="user_img_duties user_img_duties_two onetext_hidden">
+                          万科是上帝的黑色的哈死的好滴
+                      </view>
+                      <!--  -->
+                  </view>
+              </view>
+              <!-- ad_lispeople_top end -->
+              <!-- ad_lispeople_top  -->
+              <view class="ad_lispeople_bot">
+                  <view class="ad_lispeople_bot_ul flexout flex_center">
+                        <view class="ad_lispeople_bot_lis flexout flex_end">
+                            <view class="icon iconfont icon-dianhua iconlis"></view>
+                            <view class="iconlis_right">
+                                拨号
+                            </view>
+                        </view>
+                        <view class="ad_lispeople_bot_lis flexout flex_end">
+                            <view class="icon iconfont icon-xiaoxi iconlis"></view>
+                            <view class="iconlis_right">
+                                咨询
+                            </view>
+                        </view>
+                        <view class="ad_lispeople_bot_lis flexout flex_end">
+                            <view class="icon iconfont icon-zan iconlis"></view>
+                            <view class="iconlis_right">
+                                752
+                            </view>
+                        </view>
+                  </view>
+              </view>
+              <!-- ad_lispeople_bot end -->
+          </view>
+      </view>
+      <!--  -->
+      <view class="ad_lispeople">
+          <view class="mainout">
+              <!-- ad_lispeople_top  -->
+              <view class="ad_lispeople_top flexout flex_center">
+                  <view class="ad_lispeople_number">
+                      4
+                  </view>
+                  <view class="user_img">
+                       <image src="https://www.71big.com/heqing/zhaojingwang/common/images/banner1.jpg" class="top_lis_user"></image>
+                  </view>
+                  <view class="user_img_right ">
+                      <!--  -->
+                      <view class="user_img_rone flexout flex_between">
+                          <view class="flexout flex_center">
+                              <view class="user_img_rname">
+                                  李李
+                              </view>
+                              <view class="user_img_duties">
+                                  置业顾问
+                              </view>
+                          </view>
+                          <view class="user_img_act">
+                              活跃度：1868
+                          </view>
+                      </view>
+                      <!--  -->
+                      <view class="user_img_duties user_img_duties_two onetext_hidden">
+                          万科是上帝的黑色的哈死的好滴
+                      </view>
+                      <!--  -->
+                  </view>
+              </view>
+              <!-- ad_lispeople_top end -->
+              <!-- ad_lispeople_top  -->
+              <view class="ad_lispeople_bot">
+                  <view class="ad_lispeople_bot_ul flexout flex_center">
+                        <view class="ad_lispeople_bot_lis flexout flex_end">
+                            <view class="icon iconfont icon-dianhua iconlis"></view>
+                            <view class="iconlis_right">
+                                拨号
+                            </view>
+                        </view>
+                        <view class="ad_lispeople_bot_lis flexout flex_end">
+                            <view class="icon iconfont icon-xiaoxi iconlis"></view>
+                            <view class="iconlis_right">
+                                咨询
+                            </view>
+                        </view>
+                        <view class="ad_lispeople_bot_lis flexout flex_end">
+                            <view class="icon iconfont icon-zan iconlis"></view>
+                            <view class="iconlis_right">
+                                752
+                            </view>
+                        </view>
+                  </view>
+              </view>
+              <!-- ad_lispeople_bot end -->
+          </view>
+      </view>
+      <!--  -->
+      <navigator class="atOnce" url="/pages/checkIn/checkIn"> 立即入住</navigator>
+</view>
